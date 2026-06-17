@@ -36,6 +36,8 @@
     <a href="https://learn.microsoft.com/en-us/powershell/"><img src="./assets/icons/Powershell-Dark.svg" alt="PowerShell" width="48" height="48"/></a>
     <a href="https://git-scm.com/"><img src="./assets/icons/Git.svg" alt="Git" width="48" height="48"/></a>
     <a href="https://github.com/"><img src="./assets/icons/Github-Dark.svg" alt="GitHub" width="48" height="48"/></a>
+    <a href="https://www.python.org/"><img src="./assets/icons/Python-Dark.svg" alt="Python" width="48" height="48"/></a>
+    <a href="https://nodejs.org/"><img src="./assets/icons/NodeJS-Dark.svg" alt="Node.js" width="48" height="48"/></a>
 </div>
 
 ### Studying
@@ -46,7 +48,7 @@
      I also have my own blog with useful information, check it out ^^
 -->
 
-### Top 5 Projects
+### Projects
 
 **[CTBL++](https://github.com/Detractless/CTBLplusplus)** — Cold Turkey Blocker Plus Plus, a community-built open-source Windows add-on featuring a C#/.NET Engine, dual watchdogs, WPF/WebView2 UI, and tamper-resistant queued delay mechanics. Designed to help users build intentional, low-distraction computing environments.
 
