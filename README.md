@@ -28,14 +28,14 @@
 ### Main skills
 
 <div>
-    <img src="./assets/icons/CS.svg" alt="C#" width="48" height="48"/>
-    <img src="./assets/icons/DotNet.svg" alt=".NET" width="48" height="48"/>
-    <img src="./assets/icons/JavaScript.svg" alt="JavaScript" width="48" height="48"/>
-    <img src="./assets/icons/HTML.svg" alt="HTML" width="48" height="48"/>
-    <img src="./assets/icons/CSS.svg" alt="CSS" width="48" height="48"/>
-    <img src="./assets/icons/Powershell-Dark.svg" alt="PowerShell" width="48" height="48"/>
-    <img src="./assets/icons/Git.svg" alt="Git" width="48" height="48"/>
-    <img src="./assets/icons/Github-Dark.svg" alt="GitHub" width="48" height="48"/>
+    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="./assets/icons/CS.svg" alt="C#" width="48" height="48"/></a>
+    <a href="https://dotnet.microsoft.com/"><img src="./assets/icons/DotNet.svg" alt=".NET" width="48" height="48"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./assets/icons/JavaScript.svg" alt="JavaScript" width="48" height="48"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./assets/icons/HTML.svg" alt="HTML" width="48" height="48"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./assets/icons/CSS.svg" alt="CSS" width="48" height="48"/></a>
+    <a href="https://learn.microsoft.com/en-us/powershell/"><img src="./assets/icons/Powershell-Dark.svg" alt="PowerShell" width="48" height="48"/></a>
+    <a href="https://git-scm.com/"><img src="./assets/icons/Git.svg" alt="Git" width="48" height="48"/></a>
+    <a href="https://github.com/"><img src="./assets/icons/Github-Dark.svg" alt="GitHub" width="48" height="48"/></a>
 </div>
 
 ### Studying
