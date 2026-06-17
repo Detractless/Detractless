@@ -61,12 +61,6 @@ Check out my latest post 👇
     <a href="https://dev.to/christian-darby-ward">
         <img src="https://img.shields.io/badge/dev.to-CC0000?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
     </a>
-    <a href="https://www.credly.com/users/christian-darby-ward">
-        <img src="https://img.shields.io/badge/Credly-CC0000?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/>
-    </a>
-    <a href="https://www.artstation.com/christian-darby-ward">
-        <img src="https://img.shields.io/badge/ArtStation-CC0000?style=for-the-badge&logo=artstation&logoColor=white" alt="ArtStation"/>
-    </a>
     <a href="https://medium.com/@christian-darby-ward">
         <img src="https://img.shields.io/badge/Medium-CC0000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
     </a>
