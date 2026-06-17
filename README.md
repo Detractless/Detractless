@@ -16,24 +16,37 @@
      This is the list of my skills and tools I am studying!
 -->
 
-### Main skills
+### Skill Set
 
-<div>
-    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="./assets/icons/CS.svg" alt="C#" width="48" height="48"/></a>
-    <a href="https://dotnet.microsoft.com/"><img src="./assets/icons/DotNet.svg" alt=".NET" width="48" height="48"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./assets/icons/JavaScript.svg" alt="JavaScript" width="48" height="48"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./assets/icons/HTML.svg" alt="HTML" width="48" height="48"/></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="./assets/icons/CSS.svg" alt="CSS" width="48" height="48"/></a>
-    <a href="https://learn.microsoft.com/en-us/powershell/"><img src="./assets/icons/Powershell-Dark.svg" alt="PowerShell" width="48" height="48"/></a>
-    <a href="https://git-scm.com/"><img src="./assets/icons/Git.svg" alt="Git" width="48" height="48"/></a>
-    <a href="https://github.com/"><img src="./assets/icons/Github-Dark.svg" alt="GitHub" width="48" height="48"/></a>
-    <a href="https://www.python.org/"><img src="./assets/icons/Python-Dark.svg" alt="Python" width="48" height="48"/></a>
-    <a href="https://nodejs.org/"><img src="./assets/icons/NodeJS-Dark.svg" alt="Node.js" width="48" height="48"/></a>
+<table><tr><td valign="top" width="25%">
+
+### Frontend  
+<div align="center">  
+    <img src="https://skillicons.dev/icons?i=html,css,js&perline=4" />
 </div>
 
-### Studying
+</td><td valign="top" width="25%">
+        
+### Languages
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,js,python,powershell&perline=4" />
+</div>
 
-[![Learning](https://skillicons.dev/icons?i=aws,azure,ruby)](https://skillicons.dev)
+</td><td valign="top" width="25%">
+  
+### Tools
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=git,github,nodejs,vscode&perline=4" />
+</div>
+
+</td><td valign="top" width="25%">
+
+### Studying
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=aws,azure,ruby&perline=4" />
+</div>
+
+</td></tr></table>
 
 <!--
      I also have my own blog with useful information, check it out ^^
