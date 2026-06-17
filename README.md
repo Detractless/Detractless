@@ -27,7 +27,16 @@
 
 ### Main skills
 
-[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,js,html,css,powershell,git,github)](https://skillicons.dev)
+<div>
+    <img src="./assets/icons/cs.svg" alt="C#" width="48" height="48"/>
+    <img src="./assets/icons/dotnet.svg" alt=".NET" width="48" height="48"/>
+    <img src="./assets/icons/js.svg" alt="JavaScript" width="48" height="48"/>
+    <img src="./assets/icons/html.svg" alt="HTML" width="48" height="48"/>
+    <img src="./assets/icons/css.svg" alt="CSS" width="48" height="48"/>
+    <img src="./assets/icons/powershell.svg" alt="PowerShell" width="48" height="48"/>
+    <img src="./assets/icons/git.svg" alt="Git" width="48" height="48"/>
+    <img src="./assets/icons/github.svg" alt="GitHub" width="48" height="48"/>
+</div>
 
 ### Studying
 
