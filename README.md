@@ -16,6 +16,14 @@
      This is the list of my skills and tools I am studying!
 -->
 
+## About Me
+
+- Student at Kennesaw State University studying data analytics, geography, and English composition.
+- Building [CTBL++](https://github.com/Detractless/CTBLplusplus), a community-built open-source Windows add-on for intentional, low-distraction computing.
+- Vibe coder who builds software extensively with AI assistance across C#/.NET, WPF, JavaScript, and PowerShell.
+- Interested in criminal justice as a career path for its stability and rural lifestyle compatibility.
+- Passionate about designing personal productivity tools and minimalist desktop environments.
+
 ### Skill Set
 
 <table><tr><td valign="top" width="25%">
