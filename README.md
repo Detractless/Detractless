@@ -7,17 +7,7 @@
     You may also want to connect with me on LinkedIn @FILL IN :))
 -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=CC0000&height=120&section=header" alt="header"/> 
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=C5C6C8&width=435&lines=Hello%2C+it's+Christian+Darby-Ward" alt="Hello"/>
-</a>
-<br/>
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=0B1315&width=435&lines=Software+Developer" alt="Software Developer"/>
-</a>
-<br/>
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=FDBB30&width=435&lines=Student+at+KSU" alt="Student at KSU"/>
-</a>
+<img src="./assets/typing.svg" alt="Hello, it's Christian Darby-Ward | Software Developer | Student at KSU"/>
 <!--
     Your own Terminal GIF can be created here -> https://www.terminalgif.com
 -->
