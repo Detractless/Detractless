@@ -13,15 +13,6 @@
   <img src="./assets/typing-light.svg" alt="Hello, it's Christian Darby-Ward | Software Developer | Student at KSU"/>
 </picture>
 <!--
-    Your own Terminal GIF can be created here -> https://www.terminalgif.com
--->
-<div>
-    <img src="./assets/about_christian.gif" alt="About Me Terminal GIF"/>
-</div>
-<!--
-     My mission, because I'm a superhero!
--->
-<!--
      This is the list of my skills and tools I am studying!
 -->
 
