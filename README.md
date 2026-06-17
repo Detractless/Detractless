@@ -8,7 +8,7 @@
 -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=CC0000&height=120&section=header" alt="header"/> 
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=CC0000&width=435&lines=Hello%2C+it's+Christian+Darby-Ward;Business+Analyst" alt="Business Analyst"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=CC0000&width=435&lines=Hello%2C+it's+Christian+Darby-Ward;Software+Developer;Student+at+KSU" alt="Software Developer | Student at KSU"/>
 </a>
 <!--
     Your own Terminal GIF can be created here -> https://www.terminalgif.com
@@ -25,7 +25,7 @@
 
 ### Main skills
 
-[![My Skills](https://skillicons.dev/icons?i=py,regex,github,git,mongodb,mysql,eclipse,java,spring,js,nodejs,react,express,jest,jenkins,cpp,cs,dotnet,html,css,bootstrap,pug,php,androidstudio,blender,ps,notion)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,js,html,css,powershell,git,github)](https://skillicons.dev)
 
 ### Studying
 
@@ -35,19 +35,10 @@
      I also have my own blog with useful information, check it out ^^
 -->
 
-### Publications
+### Projects
 
-<div> 
-  <a href="https://medium.com/@christian-darby-ward">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank" alt="Medium">
-  </a>
-  <a href="https://dev.to/christian-darby-ward">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" target="_blank" alt="Dev.to">
-  </a>
-</div>
+**[CTBL++](https://github.com/Detractless/CTBLplusplus)** — Cold Turkey Blocker Plus Plus, a community-built open-source Windows add-on featuring a C#/.NET Engine, dual watchdogs, WPF/WebView2 UI, and tamper-resistant queued delay mechanics. Designed to help users build intentional, low-distraction computing environments.
 
-You can find my publications on Medium and Dev.to, where I share career insights, tips, and my knowledge and experience in tech.
-I also delve into personal thoughts and research on AI, quantum computing and other interesting topics.
 <!--
 Check out my latest post 👇  
 <a href="https://medium.com/@christian-darby-ward" target="_blank">
