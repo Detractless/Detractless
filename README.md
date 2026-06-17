@@ -28,14 +28,14 @@
 ### Main skills
 
 <div>
-    <img src="./assets/icons/cs.svg" alt="C#" width="48" height="48"/>
-    <img src="./assets/icons/dotnet.svg" alt=".NET" width="48" height="48"/>
-    <img src="./assets/icons/js.svg" alt="JavaScript" width="48" height="48"/>
-    <img src="./assets/icons/html.svg" alt="HTML" width="48" height="48"/>
-    <img src="./assets/icons/css.svg" alt="CSS" width="48" height="48"/>
-    <img src="./assets/icons/powershell.svg" alt="PowerShell" width="48" height="48"/>
-    <img src="./assets/icons/git.svg" alt="Git" width="48" height="48"/>
-    <img src="./assets/icons/github.svg" alt="GitHub" width="48" height="48"/>
+    <img src="./assets/icons/CS.svg" alt="C#" width="48" height="48"/>
+    <img src="./assets/icons/DotNet.svg" alt=".NET" width="48" height="48"/>
+    <img src="./assets/icons/JavaScript.svg" alt="JavaScript" width="48" height="48"/>
+    <img src="./assets/icons/HTML.svg" alt="HTML" width="48" height="48"/>
+    <img src="./assets/icons/CSS.svg" alt="CSS" width="48" height="48"/>
+    <img src="./assets/icons/Powershell-Dark.svg" alt="PowerShell" width="48" height="48"/>
+    <img src="./assets/icons/Git.svg" alt="Git" width="48" height="48"/>
+    <img src="./assets/icons/Github-Dark.svg" alt="GitHub" width="48" height="48"/>
 </div>
 
 ### Studying
