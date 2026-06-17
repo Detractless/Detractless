@@ -43,15 +43,6 @@
 
 **[CTBL++](https://github.com/Detractless/CTBLplusplus)** — Cold Turkey Blocker Plus Plus, a community-built open-source Windows add-on featuring a C#/.NET Engine, dual watchdogs, WPF/WebView2 UI, and tamper-resistant queued delay mechanics. Designed to help users build intentional, low-distraction computing environments.
 
-<!--
-Check out my latest post 👇  
-<a href="https://medium.com/@christian-darby-ward" target="_blank">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@christian-darby-ward/0" alt="Latest Medium Article" />
-</a>
-[![My latest Medium post](https://miro.medium.com/v2/resize:fit:1200/format:webp/INSERT-YOUR-COVER-IMAGE-ID-HERE)](https://medium.com/@christian-darby-ward/your-article-slug)
-     Fast links to my socials!
--->
-
 ### Connect with me!
 
 <div>
