@@ -1,40 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 435 50" style="background-color: #00000000;" width="435px" height="50px">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 50" style="background-color: #00000000;" width="500px" height="50px">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
   </style>
-  <!-- Line 1: Hello, it's Christian Darby-Ward (long) -->
+  <!-- Line 1: Hey There, It's Christian Darby-Ward -->
   <path id="path0">
-    <animate id="d0" attributeName="d" begin="0s;d2.end" dur="4500ms" fill="remove"
-      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+    <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h500 ; m0,25 h500 ; m0,25 h0"
       keyTimes="0;0.6;0.8;1"/>
   </path>
   <text font-family="'Montserrat', sans-serif" fill="#C5C6C8" font-size="25" font-weight="500" dominant-baseline="middle">
     <textPath xlink:href="#path0">
-      Hello, it's Christian Darby-Ward
+      Hey There, It's Christian Darby-Ward
     </textPath>
   </text>
 
-  <!-- Line 2: Software Developer (medium) -->
+  <!-- Line 2: A Software Developer (white for dark bg) -->
   <path id="path1">
     <animate id="d1" attributeName="d" begin="d0.end" dur="2800ms" fill="remove"
-      values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
+      values="m0,25 h0 ; m0,25 h290 ; m0,25 h290 ; m0,25 h0"
       keyTimes="0;0.6;0.8;1"/>
   </path>
   <text font-family="'Montserrat', sans-serif" fill="#FFFFFF" font-size="25" font-weight="500" dominant-baseline="middle">
     <textPath xlink:href="#path1">
-      Software Developer
+      A Software Developer
     </textPath>
   </text>
 
-  <!-- Line 3: and Student at KSU (medium) -->
+  <!-- Line 3: And Student At KSU -->
   <path id="path2">
     <animate id="d2" attributeName="d" begin="d1.end" dur="2800ms" fill="remove"
-      values="m0,25 h0 ; m0,25 h260 ; m0,25 h260 ; m0,25 h0"
+      values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
       keyTimes="0;0.6;0.8;1"/>
   </path>
   <text font-family="'Montserrat', sans-serif" fill="#FDBB30" font-size="25" font-weight="500" dominant-baseline="middle">
     <textPath xlink:href="#path2">
-      and Student at KSU
+      And Student At KSU
     </textPath>
   </text>
 </svg>
