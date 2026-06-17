@@ -74,6 +74,8 @@ Check out my latest post 👇
 > [!IMPORTANT]  
 > <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
 
+<p align="left"><img src="https://komarev.com/ghpvc/?username=Detractless&label=Profile%20views&color=CC0000&style=flat" alt="Profile views"/></p>
+
 <img width=100% src="./assets/footer.svg" alt="footer"/>
 <!--
      Thanks for being my guest <3>
