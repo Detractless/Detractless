@@ -2,7 +2,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
   </style>
-  <!-- Line 1: Hello -->
+  <!-- Line 1: Hello, it's Christian Darby-Ward (long) -->
   <path id="path0">
     <animate id="d0" attributeName="d" begin="0s;d2.end" dur="4500ms" fill="remove"
       values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
@@ -14,10 +14,10 @@
     </textPath>
   </text>
 
-  <!-- Line 2: Software Developer (white for dark bg) -->
+  <!-- Line 2: Software Developer (medium) -->
   <path id="path1">
-    <animate id="d1" attributeName="d" begin="d0.end" dur="4500ms" fill="remove"
-      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+    <animate id="d1" attributeName="d" begin="d0.end" dur="2800ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
       keyTimes="0;0.6;0.8;1"/>
   </path>
   <text font-family="'Montserrat', sans-serif" fill="#FFFFFF" font-size="25" font-weight="500" dominant-baseline="middle">
@@ -26,10 +26,10 @@
     </textPath>
   </text>
 
-  <!-- Line 3: and a Student at KSU -->
+  <!-- Line 3: and Student at KSU (medium) -->
   <path id="path2">
-    <animate id="d2" attributeName="d" begin="d1.end" dur="4500ms" fill="remove"
-      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+    <animate id="d2" attributeName="d" begin="d1.end" dur="2800ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h260 ; m0,25 h260 ; m0,25 h0"
       keyTimes="0;0.6;0.8;1"/>
   </path>
   <text font-family="'Montserrat', sans-serif" fill="#FDBB30" font-size="25" font-weight="500" dominant-baseline="middle">
