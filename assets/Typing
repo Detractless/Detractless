@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 435 50" style="background-color: #00000000;" width="435px" height="50px">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
+  </style>
+  <!-- Line 1: Hello -->
+  <path id="path0">
+    <animate id="d0" attributeName="d" begin="0s;d2.end" dur="4500ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+      keyTimes="0;0.6;0.8;1"/>
+  </path>
+  <text font-family="'Montserrat', sans-serif" fill="#C5C6C8" font-size="25" font-weight="500" dominant-baseline="middle">
+    <textPath xlink:href="#path0">
+      Hello, it's Christian Darby-Ward
+    </textPath>
+  </text>
+
+  <!-- Line 2: Software Developer -->
+  <path id="path1">
+    <animate id="d1" attributeName="d" begin="d0.end" dur="4500ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+      keyTimes="0;0.6;0.8;1"/>
+  </path>
+  <text font-family="'Montserrat', sans-serif" fill="#0B1315" font-size="25" font-weight="500" dominant-baseline="middle">
+    <textPath xlink:href="#path1">
+      Software Developer
+    </textPath>
+  </text>
+
+  <!-- Line 3: Student at KSU -->
+  <path id="path2">
+    <animate id="d2" attributeName="d" begin="d1.end" dur="4500ms" fill="remove"
+      values="m0,25 h0 ; m0,25 h435 ; m0,25 h435 ; m0,25 h0"
+      keyTimes="0;0.6;0.8;1"/>
+  </path>
+  <text font-family="'Montserrat', sans-serif" fill="#FDBB30" font-size="25" font-weight="500" dominant-baseline="middle">
+    <textPath xlink:href="#path2">
+      Student at KSU
+    </textPath>
+  </text>
+</svg>
