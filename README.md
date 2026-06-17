@@ -6,7 +6,7 @@
     But may I please ask you to follow me in return? Just a click!
     You may also want to connect with me on LinkedIn @FILL IN :))
 -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=CC0000&height=120&section=header" alt="header"/> 
+<img width=100% src="./assets/header.svg" alt="header"/> 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./assets/typing-light.svg"/>
@@ -87,7 +87,7 @@ Check out my latest post 👇
 > [!IMPORTANT]  
 > <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=CC0000&height=120&section=footer" alt="footer"/>
+<img width=100% src="./assets/footer.svg" alt="footer"/>
 <!--
      Thanks for being my guest <3>
 -->
