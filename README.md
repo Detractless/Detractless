@@ -1,10 +1,10 @@
 <!--
-    Hey there, I'm Daria Stanilevici!
+    Hey there, I'm Christian Darby-Ward!
     Happy to see you here exploring my README code
     Feel free to inspire!
     
     But may I please ask you to follow me in return? Just a click!
-    You may also want to connect with me on LinkedIn @daria-stanilevici :))
+    You may also want to connect with me on LinkedIn @FILL IN :))
 -->
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header"/> 
