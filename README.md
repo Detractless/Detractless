@@ -75,7 +75,6 @@
 
 
 > [!IMPORTANT]  
-
 > <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
 
 > Open to internships, freelance/gig work, and entry-level opportunities in software development, or criminal justice.
