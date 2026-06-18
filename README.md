@@ -18,7 +18,7 @@
 
 ## About Me
 
-- Student at Kennesaw State University studying data analytics, geography, and English composition.
+- Student at Kennesaw State University studying criminal justice, software development, and psychology.
 - Building [CTBL++](https://github.com/Detractless/CTBLplusplus), a community-built open-source Windows add-on for intentional, low-distraction computing.
 - Builder who ships software rapidly with AI-assisted workflows across C#/.NET, WPF, JavaScript, and PowerShell.
 - Interested in criminal justice as a career path for its stability and rural lifestyle compatibility.
