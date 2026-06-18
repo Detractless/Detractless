@@ -29,31 +29,31 @@
 <table><tr><td valign="top" width="33%">
 
 ### Frontend  
-<div align="center">  
-    <img src="./assets/icons/HTML.svg" width="48" alt="HTML" />&nbsp;
-    <img src="./assets/icons/CSS.svg" width="48" alt="CSS" />&nbsp;
-    <img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript" />
+<div align="left">  
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/HTML.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/HTML.svg"/><img src="./assets/icons/HTML.svg" width="48" alt="HTML"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/CSS.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/CSS.svg"/><img src="./assets/icons/CSS.svg" width="48" alt="CSS"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/JavaScript.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/JavaScript.svg"/><img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript"/></picture>
 </div>
 
 </td><td valign="top" width="33%">
         
 ### Languages
-<div align="center">
-    <img src="./assets/icons/CS.svg" width="48" alt="C#" />&nbsp;
-    <img src="./assets/icons/DotNet.svg" width="48" alt=".NET" />&nbsp;
-    <img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript" />&nbsp;
-    <img src="./assets/icons/Python-Dark.svg" width="48" alt="Python" />&nbsp;
-    <img src="./assets/icons/Powershell-Dark.svg" width="48" alt="PowerShell" />
+<div align="left">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/CS.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/CS.svg"/><img src="./assets/icons/CS.svg" width="48" alt="C#"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/DotNet.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/DotNet.svg"/><img src="./assets/icons/DotNet.svg" width="48" alt=".NET"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/JavaScript.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/JavaScript.svg"/><img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Python-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Python-Light.svg"/><img src="./assets/icons/Python-Light.svg" width="48" alt="Python"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Powershell-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Powershell-Light.svg"/><img src="./assets/icons/Powershell-Light.svg" width="48" alt="PowerShell"/></picture>
 </div>
 
 </td><td valign="top" width="33%">
   
 ### Tools
-<div align="center">
-    <img src="./assets/icons/Git.svg" width="48" alt="Git" />&nbsp;
-    <img src="./assets/icons/Github-Dark.svg" width="48" alt="GitHub" />&nbsp;
-    <img src="./assets/icons/NodeJS-Dark.svg" width="48" alt="Node.js" />&nbsp;
-    <img src="./assets/icons/VSCode-Dark.svg" width="48" alt="VS Code" />
+<div align="left">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Git.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Git.svg"/><img src="./assets/icons/Git.svg" width="48" alt="Git"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Github-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Github-Light.svg"/><img src="./assets/icons/Github-Light.svg" width="48" alt="GitHub"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/NodeJS-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/NodeJS-Light.svg"/><img src="./assets/icons/NodeJS-Light.svg" width="48" alt="Node.js"/></picture>&nbsp;
+    <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/VSCode-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/VSCode-Light.svg"/><img src="./assets/icons/VSCode-Light.svg" width="48" alt="VS Code"/></picture>
 </div>
 
 </td></tr></table>
