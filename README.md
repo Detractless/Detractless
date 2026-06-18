@@ -12,6 +12,9 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/typing-light.svg"/>
   <img src="./assets/typing-light.svg" alt="Hello, it's Christian Darby-Ward | Software Developer | Student at KSU"/>
 </picture>
+<!--
+     This is the list of my skills and tools I am studying!
+-->
 
 ## About Me
 
@@ -62,13 +65,13 @@
 
 <div>
     <a href="https://www.linkedin.com/in/christian-darby-ward/">
-        <img src="https://img.shields.io/badge/LinkedIn-CC0000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="https://dev.to/christian-darby-ward">
-        <img src="https://img.shields.io/badge/dev.to-CC0000?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
+        <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
     </a>
     <a href="https://medium.com/@christian-darby-ward">
-        <img src="https://img.shields.io/badge/Medium-CC0000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+        <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
     </a>
 </div>
 <!--
