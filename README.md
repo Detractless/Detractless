@@ -30,21 +30,30 @@
 
 ### Frontend  
 <div align="center">  
-    <img src="https://skillicons.dev/icons?i=html,css,js&perline=4" />
+    <img src="./assets/icons/HTML.svg" width="48" alt="HTML" />&nbsp;
+    <img src="./assets/icons/CSS.svg" width="48" alt="CSS" />&nbsp;
+    <img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript" />
 </div>
 
 </td><td valign="top" width="33%">
         
 ### Languages
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,js,python,powershell&perline=4" />
+    <img src="./assets/icons/CS.svg" width="48" alt="C#" />&nbsp;
+    <img src="./assets/icons/DotNet.svg" width="48" alt=".NET" />&nbsp;
+    <img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript" />&nbsp;
+    <img src="./assets/icons/Python-Dark.svg" width="48" alt="Python" />&nbsp;
+    <img src="./assets/icons/Powershell-Dark.svg" width="48" alt="PowerShell" />
 </div>
 
 </td><td valign="top" width="33%">
   
 ### Tools
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=git,github,nodejs,vscode&perline=4" />
+    <img src="./assets/icons/Git.svg" width="48" alt="Git" />&nbsp;
+    <img src="./assets/icons/Github-Dark.svg" width="48" alt="GitHub" />&nbsp;
+    <img src="./assets/icons/NodeJS-Dark.svg" width="48" alt="Node.js" />&nbsp;
+    <img src="./assets/icons/VSCode-Dark.svg" width="48" alt="VS Code" />
 </div>
 
 </td></tr></table>
