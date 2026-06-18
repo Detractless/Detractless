@@ -63,17 +63,9 @@
 
 ### Connect with me!
 
-<div>
-    <a href="https://www.linkedin.com/in/christian-darby-ward/">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://dev.to/christian-darby-ward">
-        <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
-    </a>
-    <a href="https://medium.com/@christian-darby-ward">
-        <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
-    </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian-informational?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-darby-ward/)
+[![Dev.to](https://img.shields.io/badge/Dev.to-Christian-informational?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/christian-darby-ward)
+[![Medium](https://img.shields.io/badge/Medium-Christian-informational?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@christian-darby-ward)
 <!--
      Oh, hello there, recruiters!
 -->
