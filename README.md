@@ -78,7 +78,7 @@
 
 > Open to internships, freelance/gig work, and entry-level opportunities in software development, or criminal justice.
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=Detractless&label=Profile%20views&color=CC0000&style=flat" alt="Profile views"/></p>
+<p align="left"><img src="https://komarev.com/ghpvc/?username=Detractless&label=Profile%20views&color=CC0000&style=flat-square" alt="Profile views"/></p>
 
 <img width=100% src="./assets/footer.svg" alt="footer"/>
 <!--
