@@ -63,9 +63,9 @@
 
 ### Connect with me!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian-informational?style=flat-square&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-darby-ward/)
-[![Dev.to](https://img.shields.io/badge/Dev.to-Posts-informational?style=flat-square&color=CC0000&logo=dev.to&logoColor=white)](https://dev.to/christian-darby-ward)
-[![Medium](https://img.shields.io/badge/Medium-Articles-informational?style=flat-square&color=00AB6C&logo=medium&logoColor=white)](https://medium.com/@christian-darby-ward)
+[![LinkedIn](./assets/badges/linkedin.svg)](https://www.linkedin.com/in/christian-darby-ward/)
+[![Dev.to](./assets/badges/devto.svg)](https://dev.to/christian-darby-ward)
+[![Medium](./assets/badges/medium.svg)](https://medium.com/@christian-darby-ward)
 <!--
      Oh, hello there, recruiters!
 -->
