@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="20" role="img" aria-label="Medium: Articles">
+  <title>Medium: Articles</title>
+  <g shape-rendering="crispEdges">
+    <rect width="68" height="20" fill="#555"/>
+    <rect x="68" width="48" height="20" fill="#00AB6C"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(5,3) scale(0.5833)">
+      <path fill="#fff" d="M0 0v24h24V0H0zm19.938 5.686L18.651 6.92a.376.376 0 0 0-.143.362v9.067a.376.376 0 0 0 .143.361l1.257 1.234v.271h-6.322v-.27l1.302-1.265c.128-.128.128-.165.128-.36V8.99l-3.62 9.195h-.49L6.69 8.99v6.163a.85.85 0 0 0 .233.707l1.694 2.054v.271H3.815v-.27L5.51 15.86a.82.82 0 0 0 .218-.707V8.027a.624.624 0 0 0-.203-.527L4.019 5.686v-.27h4.674l3.613 7.923 3.176-7.924h4.456v.271z"/>
+    </g>
+    <text aria-hidden="true" x="424" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="408" lengthAdjust="spacing">Medium</text>
+    <text x="424" y="140" transform="scale(.1)" textLength="408" lengthAdjust="spacing">Medium</text>
+    <text aria-hidden="true" x="922" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="384" lengthAdjust="spacing">Articles</text>
+    <text x="922" y="140" transform="scale(.1)" textLength="384" lengthAdjust="spacing">Articles</text>
+  </g>
+</svg>
