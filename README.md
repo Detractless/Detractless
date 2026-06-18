@@ -18,12 +18,11 @@
 
 ## About Me
 
-- Student at Kennesaw State University studying criminal justice, software development, and psychology.
+- Windows software developer shipping production tools in C#/.NET, WPF, JavaScript, and PowerShell.
 - Building [CTBL++](https://github.com/Detractless/CTBLplusplus), a community-built open-source Windows add-on for intentional, low-distraction computing.
-- Builder who ships software rapidly with AI-assisted workflows across C#/.NET, WPF, JavaScript, and PowerShell.
-- Interested in criminal justice as a career path for its stability and rural lifestyle compatibility.
-- Passionate about designing personal productivity tools and minimalist desktop environments.
-- Chess, greasing the groove, and minamalist enthusiast.
+- Designing personal productivity tools and minimalist desktop environments.
+- Student at Kennesaw State University studying software development, criminal justice, and psychology.
+- Chess, greasing the groove, and minimalist enthusiast.
 
 ### Skill Set
 
