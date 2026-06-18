@@ -23,7 +23,7 @@
 - Builder who ships software rapidly with AI-assisted workflows across C#/.NET, WPF, JavaScript, and PowerShell.
 - Interested in criminal justice as a career path for its stability and rural lifestyle compatibility.
 - Passionate about designing personal productivity tools and minimalist desktop environments.
-- Chess, Greasing the groove, and minamalist enthusiast.
+- Chess, greasing the groove, and minamalist enthusiast.
 
 ### Skill Set
 
