@@ -4,7 +4,7 @@
     Feel free to inspire!
     
     But may I please ask you to follow me in return? Just a click!
-    You may also want to connect with me on LinkedIn @FILL IN :))
+    You may also want to connect with me on LinkedIn @christian-darby-ward
 -->
 <img width=100% src="./assets/header.svg" alt="header"/> 
 <picture>
@@ -65,7 +65,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Christian-informational?style=flat-square&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christian-darby-ward/)
 [![Dev.to](https://img.shields.io/badge/Dev.to-Posts-informational?style=flat-square&color=CC0000&logo=dev.to&logoColor=white)](https://dev.to/christian-darby-ward)
-[![Medium](https://img.shields.io/badge/Medium-Articles-informational?style=flat-square&color=CC0000&logo=medium&logoColor=white)](https://medium.com/@christian-darby-ward)
+[![Medium](https://img.shields.io/badge/Medium-Articles-informational?style=flat-square&color=000000&logo=medium&logoColor=white)](https://medium.com/@christian-darby-ward)
 <!--
      Oh, hello there, recruiters!
 -->
@@ -74,7 +74,7 @@
 
 
 > [!IMPORTANT]  
-> <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
+> <a href="https://docs.google.com/document/d/1QXdqY5nCZONamhFpsfpsnDDMZlCxpNB-/export?format=pdf">Download my resume</a>
 
 > Open to internships, freelance/gig work, and entry-level opportunities in software development, or criminal justice.
 
@@ -82,5 +82,5 @@
 
 <img width=100% src="./assets/footer.svg" alt="footer"/>
 <!--
-     Thanks for being my guest <3>
+     Thanks for being my guest ♥
 -->
