@@ -12,9 +12,6 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/typing-light.svg"/>
   <img src="./assets/typing-light.svg" alt="Hello, it's Christian Darby-Ward | Software Developer | Student at KSU"/>
 </picture>
-<!--
-     This is the list of my skills and tools I am studying!
--->
 
 ## About Me
 
