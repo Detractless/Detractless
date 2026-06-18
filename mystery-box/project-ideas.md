@@ -2,11 +2,22 @@
 
 ## 1. Exercise Tracking Engine
 
-A wide and highly accurate calisthenics + cardio exercise tracking engine.
+A wide and highly accurate calisthenics + cardio exercise tracking engine powered by computer vision.
+
+### Why This Exists
+
+I've looked for fitness games that work with just a webcam and there really aren't many. The ones that exist are either locked to expensive hardware (Kinect, Ring Fit, VR headsets) or they track a handful of movements poorly. There's no open, accurate engine that can recognize a wide range of real exercises using just a standard computer camera. That gap means fitness gaming as a genre has stayed niche when it doesn't have to be.
+
+I do Greasing the Groove calisthenics daily and track everything in a notebook. I want something that can actually see what I'm doing, count reps accurately, verify form, and eventually serve as the foundation for fitness games that other developers can build on top of. Not a closed product, but an engine. If the tracking is good enough, the games will follow.
+
+### Vision
+
+The goal is an open-source exercise recognition engine that makes webcam-based fitness gaming viable. Accurate pose estimation and rep counting across a large exercise library, exposed through a clean API so game developers don't have to solve the hard computer vision problems themselves. Get the engine right and the ecosystem can grow around it.
 
 ### Exercise Library
 
-#### Horizontal Push
+<details>
+<summary>Horizontal Push</summary>
 
 - Pushups
 - Wide Pushups
@@ -21,7 +32,10 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Ring Dips
 - Tiger Bend Pushup
 
-#### Vertical Push
+</details>
+
+<details>
+<summary>Vertical Push</summary>
 
 - Pike Pushups
 - Handstand
@@ -30,12 +44,18 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Wall Walks
 - Handstand Walk
 
-#### Horizontal Pull
+</details>
+
+<details>
+<summary>Horizontal Pull</summary>
 
 - Inverted Row
 - Archer Row
 
-#### Vertical Pull
+</details>
+
+<details>
+<summary>Vertical Pull</summary>
 
 - Pull-ups
 - Chin-ups
@@ -47,7 +67,10 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Muscle Up (bar/ring)
 - Skin the Cat
 
-#### Squat/Legs
+</details>
+
+<details>
+<summary>Squat/Legs</summary>
 
 - Bodyweight Squats
 - Sumo Squats
@@ -62,12 +85,18 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Calf Raises
 - Jumping Lunges
 
-#### Carry/Grip
+</details>
+
+<details>
+<summary>Carry/Grip</summary>
 
 - Dead Hang
 - Farmers Carry
 
-#### Core/Isometric Holds
+</details>
+
+<details>
+<summary>Core/Isometric Holds</summary>
 
 - Plank (front/side)
 - Reverse Plank
@@ -86,7 +115,10 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Frog Stand/Crow Pose
 - Elbow Lever
 
-#### Cardio/Conditioning
+</details>
+
+<details>
+<summary>Cardio/Conditioning</summary>
 
 - Burpees
 - Mountain Climbers
@@ -98,6 +130,8 @@ A wide and highly accurate calisthenics + cardio exercise tracking engine.
 - Crab Walk
 - Marching
 - Running in Place
+
+</details>
 
 ## 2. Read-Aloud Verification Engine
 
