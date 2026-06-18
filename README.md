@@ -20,39 +20,32 @@
 
 - Student at Kennesaw State University studying data analytics, geography, and English composition.
 - Building [CTBL++](https://github.com/Detractless/CTBLplusplus), a community-built open-source Windows add-on for intentional, low-distraction computing.
-- Vibe coder who builds software extensively with AI assistance across C#/.NET, WPF, JavaScript, and PowerShell.
+- Builder who ships software rapidly with AI-assisted workflows across C#/.NET, WPF, JavaScript, and PowerShell.
 - Interested in criminal justice as a career path for its stability and rural lifestyle compatibility.
 - Passionate about designing personal productivity tools and minimalist desktop environments.
 - Chess enthusiast.
 
 ### Skill Set
 
-<table><tr><td valign="top" width="25%">
+<table><tr><td valign="top" width="33%">
 
 ### Frontend  
 <div align="center">  
     <img src="https://skillicons.dev/icons?i=html,css,js&perline=4" />
 </div>
 
-</td><td valign="top" width="25%">
+</td><td valign="top" width="33%">
         
 ### Languages
 <div align="center">
     <img src="https://skillicons.dev/icons?i=cs,dotnet,js,python,powershell&perline=4" />
 </div>
 
-</td><td valign="top" width="25%">
+</td><td valign="top" width="33%">
   
 ### Tools
 <div align="center">
     <img src="https://skillicons.dev/icons?i=git,github,nodejs,vscode&perline=4" />
-</div>
-
-</td><td valign="top" width="25%">
-
-### Studying
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=aws,azure,ruby&perline=4" />
 </div>
 
 </td></tr></table>
@@ -79,6 +72,8 @@
 -->
 
 ### Employer?
+
+> Open to internships and entry-level opportunities in software development, data analytics, or criminal justice.
 
 > [!IMPORTANT]  
 > <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
