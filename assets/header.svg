@@ -1,0 +1,130 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="854"
+  height="200"
+  viewBox="0 0 854 200"
+  fill="none"
+>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
+    .typed { font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 500; }
+    .line1 { fill: #C5C6C8; }
+    .line2 { fill: #0B1315; }
+    .line3 { fill: #FDBB30; }
+    @media (prefers-color-scheme: dark) { .line2 { fill: #FFFFFF; } }
+    .stat-label { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; fill: #8b949e; }
+    .stat-val   { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
+    .stat-lang  { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; font-weight: 600; fill: #f78166; }
+
+    /* slideshow: 5 stats x 3s each = 15s cycle */
+    .slide-1,.slide-2,.slide-3,.slide-4,.slide-5 { opacity: 0; }
+
+    @keyframes fade1 {
+      0%   { opacity: 0 }
+      2%   { opacity: 1 }
+      18%  { opacity: 1 }
+      20%  { opacity: 0 }
+      100% { opacity: 0 }
+    }
+    @keyframes fade2 {
+      0%,20%   { opacity: 0 }
+      22%      { opacity: 1 }
+      38%      { opacity: 1 }
+      40%,100% { opacity: 0 }
+    }
+    @keyframes fade3 {
+      0%,40%   { opacity: 0 }
+      42%      { opacity: 1 }
+      58%      { opacity: 1 }
+      60%,100% { opacity: 0 }
+    }
+    @keyframes fade4 {
+      0%,60%   { opacity: 0 }
+      62%      { opacity: 1 }
+      78%      { opacity: 1 }
+      80%,100% { opacity: 0 }
+    }
+    @keyframes fade5 {
+      0%,80% { opacity: 0 }
+      82%    { opacity: 1 }
+      98%    { opacity: 1 }
+      100%   { opacity: 0 }
+    }
+
+    .slide-1 { animation: fade1 15s linear infinite; }
+    .slide-2 { animation: fade2 15s linear infinite; }
+    .slide-3 { animation: fade3 15s linear infinite; }
+    .slide-4 { animation: fade4 15s linear infinite; }
+    .slide-5 { animation: fade5 15s linear infinite; }
+  </style>
+
+  <g transform="translate(427, 60) scale(1, 1) translate(-427, -60)">
+    <path d="" fill="#CC0000" opacity="0.4">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+        values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z"/>
+    </path>
+    <path d="" fill="#CC0000" opacity="0.4">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s"
+        values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z"/>
+    </path>
+  </g>
+
+  <g transform="translate(0, 158)">
+    <path id="path0">
+      <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
+        values="m0,25 h0 ; m0,25 h500 ; m0,25 h500 ; m0,25 h0"
+        keyTimes="0;0.6;0.8;1"/>
+    </path>
+    <text class="typed line1" dominant-baseline="middle">
+      <textPath xlink:href="#path0">Hey There, It's Christian Darby-Ward</textPath>
+    </text>
+    <path id="path1">
+      <animate id="d1" attributeName="d" begin="d0.end" dur="2800ms" fill="remove"
+        values="m0,25 h0 ; m0,25 h290 ; m0,25 h290 ; m0,25 h0"
+        keyTimes="0;0.6;0.8;1"/>
+    </path>
+    <text class="typed line2" dominant-baseline="middle">
+      <textPath xlink:href="#path1">A Software Developer</textPath>
+    </text>
+    <path id="path2">
+      <animate id="d2" attributeName="d" begin="d1.end" dur="2800ms" fill="remove"
+        values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
+        keyTimes="0;0.6;0.8;1"/>
+    </path>
+    <text class="typed line3" dominant-baseline="middle">
+      <textPath xlink:href="#path2">And Student At KSU</textPath>
+    </text>
+  </g>
+
+  <g class="slide-1">
+    <text x="720" y="128" class="stat-val" text-anchor="middle">289</text>
+    <text x="720" y="142" class="stat-label" text-anchor="middle">commits</text>
+  </g>
+
+  <g class="slide-2">
+    <text x="720" y="128" class="stat-val" text-anchor="middle">4</text>
+    <text x="720" y="142" class="stat-label" text-anchor="middle">stars</text>
+  </g>
+
+  <g class="slide-3">
+    <text x="720" y="128" class="stat-val" text-anchor="middle">4</text>
+    <text x="720" y="142" class="stat-label" text-anchor="middle">repos</text>
+  </g>
+
+  <g class="slide-4">
+    <text x="720" y="128" class="stat-val" text-anchor="middle">7</text>
+    <text x="720" y="142" class="stat-label" text-anchor="middle">issues</text>
+  </g>
+
+  <g class="slide-5">
+    <rect x="679" y="120" width="82" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
+    <text x="720" y="128" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
+    <text x="720" y="144" class="stat-label" text-anchor="middle">top lang</text>
+  </g>
+
+</svg>
