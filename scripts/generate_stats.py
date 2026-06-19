@@ -105,11 +105,14 @@ def _patch_lang(svg: str, lang: str) -> str:
         rf'\g<1>{lang}\g<2>',
         svg,
     )
-    # Resize pill width: 9px per char + 20px padding
+    # Resize pill width: 9px per char + 20px padding.
+    # Use a non-greedy match and require a space before `width` so the regex
+    # targets the bare `width` attribute and cannot slide past it to
+    # `stroke-width`, which would corrupt the stroke and hide the badge text.
     new_w = len(lang) * 9 + 20
     svg = re.sub(
-        r'(<!-- stat:lang --><rect [^>]*width=")[^"]*(")',
-        rf'\g<1>{new_w}\g<2>',
+        r'(<!-- stat:lang --><rect (?:[^>]*? )?)width="[^"]*"',
+        rf'\g<1>width="{new_w}"',
         svg,
     )
     return svg
