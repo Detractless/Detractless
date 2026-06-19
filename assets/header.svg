@@ -10,44 +10,34 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
     .typed { font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 500; }
     .line1 { fill: #C5C6C8; }
-    .line2 { fill: #0B1315; }            /* light theme (default / fallback) */
+    .line2 { fill: #0B1315; }
     .line3 { fill: #FDBB30; }
     @media (prefers-color-scheme: dark) {
-      .line2 { fill: #FFFFFF; }          /* dark theme */
+      .line2 { fill: #FFFFFF; }
     }
+    .stat-label { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; fill: #8b949e; }
+    .stat-val   { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
+    .stat-lang  { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px;  font-weight: 600; fill: #f78166; }
   </style>
 
   <!-- ===================== HEADER: animated waves ===================== -->
   <g transform="translate(427, 60) scale(1, 1) translate(-427, -60)">
     <path d="" fill="#CC0000" opacity="0.4">
-      <animate
-        attributeName="d"
-        dur="20s"
-        repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
-        calcmod="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="0s"
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
         values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z"/>
     </path>
     <path d="" fill="#CC0000" opacity="0.4">
-      <animate
-        attributeName="d"
-        dur="20s"
-        repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
-        calcmod="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="-10s"
+      <animate attributeName="d" dur="20s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1" calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-10s"
         values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z"/>
     </path>
   </g>
 
-  <!-- ============ FREE SPACE between waves (ends ~y120) and typing (starts y150) ============ -->
-
-  <!-- ===================== TYPING: 3 chained lines, left-aligned ===================== -->
+  <!-- ===================== TYPING: left-aligned ===================== -->
   <g transform="translate(0, 158)">
-    <!-- Line 1: Hey There, It's Christian Darby-Ward (~800px at 40px font) -->
     <path id="path0">
       <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
         values="m0,25 h0 ; m0,25 h500 ; m0,25 h500 ; m0,25 h0"
@@ -56,8 +46,6 @@
     <text class="typed line1" dominant-baseline="middle">
       <textPath xlink:href="#path0">Hey There, It's Christian Darby-Ward</textPath>
     </text>
-
-    <!-- Line 2: A Software Developer -->
     <path id="path1">
       <animate id="d1" attributeName="d" begin="d0.end" dur="2800ms" fill="remove"
         values="m0,25 h0 ; m0,25 h290 ; m0,25 h290 ; m0,25 h0"
@@ -66,8 +54,6 @@
     <text class="typed line2" dominant-baseline="middle">
       <textPath xlink:href="#path1">A Software Developer</textPath>
     </text>
-
-    <!-- Line 3: And Student At KSU -->
     <path id="path2">
       <animate id="d2" attributeName="d" begin="d1.end" dur="2800ms" fill="remove"
         values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
@@ -77,4 +63,29 @@
       <textPath xlink:href="#path2">And Student At KSU</textPath>
     </text>
   </g>
+
+  <!-- ===================== STATS: minimal, right-aligned ===================== -->
+  <!-- 5 stats in a row, pinned to the right, sitting in the free space y=120–155 -->
+  <!-- Each stat column is ~42px wide; 5 cols + lang badge = fits in ~260px; right edge at x=850 -->
+
+  <!-- Commits -->
+  <text x="604" y="128" class="stat-val" text-anchor="middle">272</text>
+  <text x="604" y="141" class="stat-label" text-anchor="middle">commits</text>
+
+  <!-- Stars -->
+  <text x="648" y="128" class="stat-val" text-anchor="middle">4</text>
+  <text x="648" y="141" class="stat-label" text-anchor="middle">stars</text>
+
+  <!-- Repos -->
+  <text x="692" y="128" class="stat-val" text-anchor="middle">4</text>
+  <text x="692" y="141" class="stat-label" text-anchor="middle">repos</text>
+
+  <!-- Issues -->
+  <text x="736" y="128" class="stat-val" text-anchor="middle">7</text>
+  <text x="736" y="141" class="stat-label" text-anchor="middle">issues</text>
+
+  <!-- Top lang badge -->
+  <rect x="764" y="120" width="82" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="0.8"/>
+  <text x="805" y="128" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
+
 </svg>
