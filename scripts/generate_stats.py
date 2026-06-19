@@ -19,6 +19,7 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "Detractless")
 TOKEN    = os.environ.get("GITHUB_TOKEN", "")
 ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Ensure this matches your actual file name
 SVG_PATH = os.path.join(ROOT, "assets", "header.svg")
 
 
@@ -77,43 +78,34 @@ def _fmt(n: int) -> str:
 
 # ── SVG patcher ───────────────────────────────────────────────────────────────
 #
-# The header-typing.svg contains stat placeholders in this exact form:
-#
-#   <!-- stat:commits --><text ...>272</text>
-#   <!-- stat:stars   --><text ...>4</text>
-#   <!-- stat:repos   --><text ...>4</text>
-#   <!-- stat:issues  --><text ...>7</text>
-#   <!-- stat:lang    --><rect .../>...<text ...>JavaScript</text>
-#
-# We use sentinel comments so regexes are narrow and safe.
+# We use the <g class="slide-X"> wrappers as our anchor points.
+# Slide 1 = Commits, Slide 2 = Stars, Slide 3 = Repos, Slide 4 = Issues, Slide 5 = Lang
 
-def _patch_stat(svg: str, key: str, value: str) -> str:
-    """Replace the text content of the element immediately after <!-- stat:KEY -->."""
-    pattern = rf'(<!-- stat:{re.escape(key)} --><text [^>]*>)[^<]*(</text>)'
-    replacement = rf'\g<1>{value}\g<2>'
-    result, n = re.subn(pattern, replacement, svg)
+def _patch_stat(svg: str, slide_num: int, value: str) -> str:
+    """Replace the text content of the first <text> immediately inside <g class="slide-X">."""
+    pattern = rf'(<g class="slide-{slide_num}">\s*<text [^>]*>)[^<]*(</text>)'
+    result, n = re.subn(pattern, rf'\g<1>{value}\g<2>', svg)
     if n == 0:
-        print(f"  WARN: sentinel <!-- stat:{key} --> not found in SVG", file=sys.stderr)
+        print(f"  WARN: <g class='slide-{slide_num}'> not found in SVG", file=sys.stderr)
     return result
 
 
 def _patch_lang(svg: str, lang: str) -> str:
-    """Replace language badge text and resize the pill width to fit."""
-    # Update the text label (sentinel comment, rect, then text — all on one line)
+    """Replace language badge text and resize the pill width to fit in slide-5."""
+    # Update text (we target class="stat-lang" specifically)
     svg = re.sub(
-        r'(<!-- stat:lang -->.*?<text [^>]*>)[^<]*(</text>)',
+        r'(<g class="slide-5">.*?<text [^>]*class="stat-lang"[^>]*>)[^<]*(</text>)',
         rf'\g<1>{lang}\g<2>',
         svg,
+        flags=re.DOTALL
     )
-    # Resize pill width: 9px per char + 20px padding.
-    # Use a non-greedy match and require a space before `width` so the regex
-    # targets the bare `width` attribute and cannot slide past it to
-    # `stroke-width`, which would corrupt the stroke and hide the badge text.
+    # Resize pill width: 9px per char + 20px padding
     new_w = len(lang) * 9 + 20
     svg = re.sub(
-        r'(<!-- stat:lang --><rect (?:[^>]*? )?)width="[^"]*"',
+        r'(<g class="slide-5">.*?<rect [^>]*?)width="[^"]*"',
         rf'\g<1>width="{new_w}"',
         svg,
+        flags=re.DOTALL
     )
     return svg
 
@@ -132,10 +124,10 @@ def patch_svg(
     with open(SVG_PATH, encoding="utf-8") as f:
         svg = f.read()
 
-    svg = _patch_stat(svg, "commits", _fmt(commits))
-    svg = _patch_stat(svg, "stars",   _fmt(stars))
-    svg = _patch_stat(svg, "repos",   str(repos))
-    svg = _patch_stat(svg, "issues",  _fmt(issues))
+    svg = _patch_stat(svg, 1, _fmt(commits))
+    svg = _patch_stat(svg, 2, _fmt(stars))
+    svg = _patch_stat(svg, 3, str(repos))
+    svg = _patch_stat(svg, 4, _fmt(issues))
     svg = _patch_lang(svg, lang)
 
     with open(SVG_PATH, "w", encoding="utf-8") as f:
