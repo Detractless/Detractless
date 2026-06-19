@@ -7,11 +7,6 @@
     You may also want to connect with me on LinkedIn @christian-darby-ward
 -->
 <img width=100% src="./assets/header.svg" alt="header"/> 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/typing-light.svg"/>
-  <img src="./assets/typing-light.svg" alt="Hello, it's Christian Darby-Ward | Software Developer | Student at KSU"/>
-</picture>
 <!--
      This is the list of my skills and tools I am studying!
 -->
