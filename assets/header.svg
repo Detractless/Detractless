@@ -69,23 +69,22 @@
   <!-- Each stat column is ~42px wide; 5 cols + lang badge = fits in ~260px; right edge at x=850 -->
 
   <!-- Commits -->
-  <text x="604" y="128" class="stat-val" text-anchor="middle">272</text>
+  <!-- stat:commits --><text x="604" y="128" class="stat-val" text-anchor="middle">272</text>
   <text x="604" y="141" class="stat-label" text-anchor="middle">commits</text>
 
   <!-- Stars -->
-  <text x="648" y="128" class="stat-val" text-anchor="middle">4</text>
+  <!-- stat:stars --><text x="648" y="128" class="stat-val" text-anchor="middle">4</text>
   <text x="648" y="141" class="stat-label" text-anchor="middle">stars</text>
 
   <!-- Repos -->
-  <text x="692" y="128" class="stat-val" text-anchor="middle">4</text>
+  <!-- stat:repos --><text x="692" y="128" class="stat-val" text-anchor="middle">4</text>
   <text x="692" y="141" class="stat-label" text-anchor="middle">repos</text>
 
   <!-- Issues -->
-  <text x="736" y="128" class="stat-val" text-anchor="middle">7</text>
+  <!-- stat:issues --><text x="736" y="128" class="stat-val" text-anchor="middle">7</text>
   <text x="736" y="141" class="stat-label" text-anchor="middle">issues</text>
 
   <!-- Top lang badge -->
-  <rect x="764" y="120" width="82" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="0.8"/>
-  <text x="805" y="128" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
+  <!-- stat:lang --><rect x="764" y="120" width="82" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="0.8"/><text x="805" y="128" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
 
 </svg>
