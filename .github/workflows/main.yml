@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-stats:
-    name: Regenerate stats.svg
+    name: Patch header-typing.svg with live stats
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate SVG
+      - name: Patch stats into header-typing.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: Detractless
@@ -32,9 +32,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
+          git add assets/header.svg
           if git diff --staged --quiet; then
-            echo "stats.svg unchanged — nothing to commit"
+            echo "header.svg unchanged — nothing to commit"
           else
             git commit -m "chore: update stats [skip ci]"
             git push
