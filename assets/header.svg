@@ -103,7 +103,7 @@
   </g>
 
   <g class="slide-1">
-    <text x="720" y="128" class="stat-val" text-anchor="middle">289</text>
+    <text x="720" y="128" class="stat-val" text-anchor="middle">297</text>
     <text x="720" y="142" class="stat-label" text-anchor="middle">commits</text>
   </g>
 
@@ -123,7 +123,7 @@
   </g>
 
   <g class="slide-5">
-    <rect x="679" y="120" width="82" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
+    <rect x="679" y="120" width="110" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
     <text x="720" y="128" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
     <text x="720" y="144" class="stat-label" text-anchor="middle">top lang</text>
   </g>
