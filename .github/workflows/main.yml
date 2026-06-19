@@ -2,7 +2,7 @@ name: Update Stats SVG
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 03:00 UTC daily
+    - cron: '0 */2 * * *'   # Runs every 2 hours
   workflow_dispatch:        # also triggerable manually from the Actions tab
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Patch stats into header-typing.svg
+      - name: Patch stats into header.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: Detractless
