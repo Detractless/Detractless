@@ -46,7 +46,7 @@
   <!-- ============ FREE SPACE between waves (ends ~y120) and typing (starts y150) ============ -->
 
   <!-- ===================== TYPING: 3 chained lines, left-aligned ===================== -->
-  <g transform="translate(20, 158)">
+  <g transform="translate(0, 158)">
     <!-- Line 1: Hey There, It's Christian Darby-Ward (~800px at 40px font) -->
     <path id="path0">
       <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
