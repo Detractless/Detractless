@@ -17,7 +17,7 @@
     .stat-val   { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
     .stat-lang  { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; font-weight: 600; fill: #f78166; }
 
-    /* slideshow: 5 stats x 3s each = 15s cycle */
+    /* slideshow: 5 stats x 5s each = 25s cycle */
     .slide-1,.slide-2,.slide-3,.slide-4,.slide-5 { opacity: 0; }
 
     @keyframes fade1 {
@@ -52,11 +52,12 @@
       100%   { opacity: 0 }
     }
 
-    .slide-1 { animation: fade1 15s linear infinite; }
-    .slide-2 { animation: fade2 15s linear infinite; }
-    .slide-3 { animation: fade3 15s linear infinite; }
-    .slide-4 { animation: fade4 15s linear infinite; }
-    .slide-5 { animation: fade5 15s linear infinite; }
+    /* Changed from 15s to 25s to slow down the transitions */
+    .slide-1 { animation: fade1 25s linear infinite; }
+    .slide-2 { animation: fade2 25s linear infinite; }
+    .slide-3 { animation: fade3 25s linear infinite; }
+    .slide-4 { animation: fade4 25s linear infinite; }
+    .slide-5 { animation: fade5 25s linear infinite; }
   </style>
 
   <g transform="translate(427, 60) scale(1, 1) translate(-427, -60)">
