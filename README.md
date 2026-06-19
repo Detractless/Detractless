@@ -12,7 +12,6 @@
 -->
 
 #
-
 ## About Me
 
 - Windows software developer shipping production tools in C#/.NET, WPF, JavaScript, and PowerShell.
