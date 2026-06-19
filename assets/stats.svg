@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="400" viewBox="0 0 680 400">
+  <rect x="0" y="0" width="680" height="400" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="20" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="14" font-weight="600" fill="#e6edf3">GitHub Stats</text>
+  <text x="20" y="48" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="11" fill="#8b949e">@Detractless</text>
+  <line x1="20" y1="60" x2="660" y2="60" stroke="#30363d" stroke-width="0.7"/>
+  <polygon points="205.00,186.00 224.05,197.00 224.05,219.00 205.00,230.00 185.95,219.00 185.95,197.00" fill="none" stroke="#161b22" stroke-width="0.8"/>
+  <polygon points="205.00,164.00 243.11,186.00 243.11,230.00 205.00,252.00 166.89,230.00 166.89,186.00" fill="none" stroke="#161b22" stroke-width="0.8"/>
+  <polygon points="205.00,142.00 262.16,175.00 262.16,241.00 205.00,274.00 147.84,241.00 147.84,175.00" fill="none" stroke="#161b22" stroke-width="0.8"/>
+  <polygon points="205.00,120.00 281.21,164.00 281.21,252.00 205.00,296.00 128.79,252.00 128.79,164.00" fill="none" stroke="#161b22" stroke-width="0.8"/>
+  <polygon points="205.00,98.00 300.26,153.00 300.26,263.00 205.00,318.00 109.74,263.00 109.74,153.00" fill="none" stroke="#30363d" stroke-width="1"/>
+  <line x1="205.00" y1="208.00" x2="205.00" y2="98.00" stroke="#30363d" stroke-width="0.7"/>
+  <line x1="205.00" y1="208.00" x2="300.26" y2="153.00" stroke="#30363d" stroke-width="0.7"/>
+  <line x1="205.00" y1="208.00" x2="300.26" y2="263.00" stroke="#30363d" stroke-width="0.7"/>
+  <line x1="205.00" y1="208.00" x2="205.00" y2="318.00" stroke="#30363d" stroke-width="0.7"/>
+  <line x1="205.00" y1="208.00" x2="109.74" y2="263.00" stroke="#30363d" stroke-width="0.7"/>
+  <line x1="205.00" y1="208.00" x2="109.74" y2="153.00" stroke="#30363d" stroke-width="0.7"/>
+  <polygon points="205.00,198.03 206.27,207.27 217.70,215.33 205.00,208.00 200.55,210.57 205.00,208.00" fill="#388bfd1a" stroke="#58a6ff" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="205.00" cy="198.03" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="206.27" cy="207.27" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="217.70" cy="215.33" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="205.00" cy="208.00" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="200.55" cy="210.57" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="205.00" cy="208.00" r="3.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1.5"/>
+  <text x="205.0" y="74.0" dy="0.35em" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">Commits</text>
+  <text x="321.0" y="141.0" dy="0.35em" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">Stars</text>
+  <text x="321.0" y="275.0" dy="0.35em" text-anchor="start" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">Repos</text>
+  <text x="205.0" y="342.0" dy="0.35em" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">PRs</text>
+  <text x="89.0" y="275.0" dy="0.35em" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">Issues</text>
+  <text x="89.0" y="141.0" dy="0.35em" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" fill="#8b949e">Followers</text>
+  <line x1="378" y1="68" x2="378" y2="353" stroke="#30363d" stroke-width="0.7"/>
+  <text x="395" y="96" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Commits</text>
+  <text x="660" y="96" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">272</text>
+  <rect x="395" y="103" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="103" width="24.0" height="3" rx="1.5" fill="#58a6ff"/>
+  <text x="395" y="143" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Stars</text>
+  <text x="660" y="143" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">4</text>
+  <rect x="395" y="150" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="150" width="3.5" height="3" rx="1.5" fill="#58a6ff"/>
+  <text x="395" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Repos</text>
+  <text x="660" y="190" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">4</text>
+  <rect x="395" y="197" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="197" width="35.3" height="3" rx="1.5" fill="#58a6ff"/>
+  <text x="395" y="237" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">PRs</text>
+  <text x="660" y="237" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">0</text>
+  <rect x="395" y="244" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="244" width="3.0" height="3" rx="1.5" fill="#58a6ff"/>
+  <text x="395" y="284" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Issues</text>
+  <text x="660" y="284" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">7</text>
+  <rect x="395" y="291" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="291" width="12.4" height="3" rx="1.5" fill="#58a6ff"/>
+  <text x="395" y="331" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Followers</text>
+  <text x="660" y="331" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="12" font-weight="600" fill="#e6edf3">0</text>
+  <rect x="395" y="338" width="265" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="395" y="338" width="3.0" height="3" rx="1.5" fill="#58a6ff"/>
+  <line x1="20" y1="353" x2="660" y2="353" stroke="#30363d" stroke-width="0.7"/>
+  <text x="20" y="375" dy="0.35em" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="9" fill="#8b949e">Top language</text>
+  <rect x="118" y="366" width="110" height="18" rx="9" fill="#f7816622" stroke="#f78166" stroke-width="0.8"/>
+  <text x="127" y="375" dy="0.35em" font-family="ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace" font-size="10" font-weight="600" fill="#f78166">JavaScript</text>
+</svg>
