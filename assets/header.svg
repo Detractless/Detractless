@@ -8,7 +8,7 @@
 >
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap');
-    .typed { font-family: 'Montserrat', sans-serif; font-size: 25px; font-weight: 500; }
+    .typed { font-family: 'Montserrat', sans-serif; font-size: 40px; font-weight: 500; }
     .line1 { fill: #C5C6C8; }
     .line2 { fill: #0B1315; }            /* light theme (default / fallback) */
     .line3 { fill: #FDBB30; }
@@ -45,23 +45,22 @@
 
   <!-- ============ FREE SPACE between waves (ends ~y120) and typing (starts y150) ============ -->
 
-  <!-- ===================== TYPING: 3 chained lines, centered ===================== -->
-  <!-- box is 500 wide; centered in 854 => x offset (854-500)/2 = 177; placed in lower third -->
-  <g transform="translate(177, 150)">
-    <!-- Line 1: Hey There, It's Christian Darby-Ward -->
+  <!-- ===================== TYPING: 3 chained lines, left-aligned ===================== -->
+  <g transform="translate(20, 158)">
+    <!-- Line 1: Hey There, It's Christian Darby-Ward (~800px at 40px font) -->
     <path id="path0">
       <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
-        values="m0,25 h0 ; m0,25 h500 ; m0,25 h500 ; m0,25 h0"
+        values="m0,25 h0 ; m0,25 h800 ; m0,25 h800 ; m0,25 h0"
         keyTimes="0;0.6;0.8;1"/>
     </path>
     <text class="typed line1" dominant-baseline="middle">
       <textPath xlink:href="#path0">Hey There, It's Christian Darby-Ward</textPath>
     </text>
 
-    <!-- Line 2: A Software Developer (color flips with theme) -->
+    <!-- Line 2: A Software Developer -->
     <path id="path1">
       <animate id="d1" attributeName="d" begin="d0.end" dur="2800ms" fill="remove"
-        values="m0,25 h0 ; m0,25 h290 ; m0,25 h290 ; m0,25 h0"
+        values="m0,25 h0 ; m0,25 h460 ; m0,25 h460 ; m0,25 h0"
         keyTimes="0;0.6;0.8;1"/>
     </path>
     <text class="typed line2" dominant-baseline="middle">
@@ -71,7 +70,7 @@
     <!-- Line 3: And Student At KSU -->
     <path id="path2">
       <animate id="d2" attributeName="d" begin="d1.end" dur="2800ms" fill="remove"
-        values="m0,25 h0 ; m0,25 h270 ; m0,25 h270 ; m0,25 h0"
+        values="m0,25 h0 ; m0,25 h430 ; m0,25 h430 ; m0,25 h0"
         keyTimes="0;0.6;0.8;1"/>
     </path>
     <text class="typed line3" dominant-baseline="middle">
