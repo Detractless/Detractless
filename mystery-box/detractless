@@ -1,0 +1,431 @@
+{
+  "page1": {
+    "KSU": [
+      {
+        "name": "D2L",
+        "url": "https://kennesaw.view.usg.edu/d2l/home"
+      },
+      {
+        "name": "OneDrive",
+        "url": "https://kennesawedu-my.sharepoint.com"
+      },
+      {
+        "name": "Outlook",
+        "url": "https://outlook.office.com/mail/0"
+      },
+      {
+        "name": "Owl Express",
+        "url": "https://owlexpress.kennesaw.edu"
+      },
+      {
+        "name": "DegreeWorks",
+        "url": "https://degreeworks.kennesaw.edu/"
+      },
+      {
+        "name": "Class Schedule Builder",
+        "url": "https://kennesaw.collegescheduler.com/scheduler"
+      }
+    ],
+    "SYSTEMS": [
+      {
+        "name": "ALEKS",
+        "url": "https://kennesaw.view.usg.edu/d2l/le/lti/3679593/toolLaunch/1787155/1175178128?resourceCode=usgq-33697009"
+      },
+      {
+        "name": "Achieve",
+        "url": "https://lmslink.bfwpub.com/blti_launches/toolLaunch.php?custom_resource_id=mwtool_600&custom_action=openItem&p_i=18ult8b5t5g98td5kebgun5c8u"
+      }
+    ]
+  },
+  "page2": {
+    "GOOGLE SERVICES": [
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com"
+      },
+      {
+        "name": "Images",
+        "url": "https://images.google.com"
+      },
+      {
+        "name": "Chrome Web Store",
+        "url": "https://chromewebstore.google.com"
+      },
+      {
+        "name": "Maps",
+        "url": "https://www.google.com/maps/"
+      }
+    ],
+    "OTHER SERVICES": [
+      {
+        "name": "Canva",
+        "url": "https://canva.com"
+      },
+      {
+        "name": "Pushbullet",
+        "url": "https://pushbullet.com"
+      },
+      {
+        "name": "Supernote Cloud",
+        "url": "https://cloud.supernote.com.cn"
+      },
+      {
+        "name": "LinkTree",
+        "url": "https://linktr.ee/KSUchris"
+      },
+      {
+        "name": "Spotify",
+        "url": "https://spotify.com"
+      },
+      {
+        "name": "Github",
+        "url": "https://Github.com"
+      }
+    ],
+    "PERSONAL EMAIL": [
+      {
+        "name": "Proton Mail",
+        "url": "https://protonmail.com"
+      }
+    ],
+    "TOOLS": [
+      {
+        "name": "Spotify Downloader",
+        "url": "https://spotidownloader.com"
+      },
+      {
+        "name": "Emojipedia",
+        "url": "https://emojipedia.org"
+      }
+    ]
+  },
+  "page3": {},
+  "page1766271288718": {
+    "HOST": [
+      {
+        "name": "Jellyfin",
+        "url": "http://localhost:8096/web/#/wizard/start"
+      }
+    ]
+  },
+  "page1775055552696": {
+    "LIST 1": [
+      {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com"
+      },
+      {
+        "name": "Copilot",
+        "url": "https://copilot.microsoft.com"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/app"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai"
+      }
+    ],
+    "LIST 2": [
+      {
+        "name": "Grok",
+        "url": "https://x.ai"
+      },
+      {
+        "name": "Deepseek",
+        "url": "https://chat.deepseek.com"
+      },
+      {
+        "name": "Mistral",
+        "url": "https://chat.mistral.ai"
+      }
+    ]
+  },
+  "activeTabs": [
+    {
+      "id": "search",
+      "label": "HOME",
+      "type": "search"
+    },
+    {
+      "id": 1,
+      "label": "College",
+      "type": "bookmarks"
+    },
+    {
+      "id": 2,
+      "label": "Services",
+      "type": "bookmarks"
+    },
+    {
+      "id": 1775055552696,
+      "label": "AI",
+      "type": "bookmarks"
+    }
+  ],
+  "Theme": {
+    "CustomColors": {
+      "BorderColor": "#444444",
+      "ControlBackground": "#2D2D2D",
+      "ControlHover": "#3A3A3A",
+      "SelectionBackground": "#2A2A2A",
+      "TextPrimary": "#FFFFFF",
+      "TextSecondary": "#999999",
+      "WindowBackground": "#1E1E1E"
+    },
+    "Theme": "dark",
+    "_comment": "Theme settings: 'system' <- Follows System settings (Light/Dark). 'dark' <- Forces standard Dark mode. 'light' <- Forces standard Light mode. 'custom' <- Uses the CustomColors mapped below. Note: To apply changes, reload the page."
+  },
+  "tabLimit": 10,
+  "managementMethod": "block",
+  "searchDelaySeconds": 0,
+  "showQueryOnDelay": true,
+  "customSearchEngines": {
+    "default": {
+      "icon": "svg/default.api.svg",
+      "isDefault": true,
+      "isHidden": true,
+      "name": "Browser Default",
+      "url": "null"
+    },
+    "google": {
+      "icon": "svg/google.com.svg",
+      "isDefault": true,
+      "name": "Google",
+      "url": "https://www.google.com/search?q="
+    },
+    "reddit": {
+      "icon": "svg/reddit.com.svg",
+      "isDefault": true,
+      "name": "Reddit",
+      "url": "https://www.reddit.com/search/?q="
+    },
+    "youtube": {
+      "icon": "svg/youtube.com.svg",
+      "isDefault": true,
+      "name": "YouTube",
+      "url": "https://www.youtube.com/results?search_query="
+    }
+  },
+  "customEngineIcons": {},
+  "defaultEngineKey": "google",
+  "selectedSearchEngine": "google",
+  "fadeInEnabled": true,
+  "spotlightVisible": true,
+  "searchEngineBehavior": "always-default",
+  "fadeSpeed": "1.5",
+  "rhe_rules": {
+    "asuracomic.net": [
+      {
+        "broad": true,
+        "path": "/series/sword-devouring-swordmaster-6e8fa42a/chapter/2",
+        "selector": "div.fixed.inset-0.bg-gray-900.bg-opacity-75.flex.items-center.justify-center.z-50.p-4.overflow-y-auto",
+        "specific": false
+      }
+    ],
+    "gemini.google.com": [
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c1892203892-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c1892203892-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2380467740-2.ng-tns-c1892203892-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2380467740-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c861545597-4.ng-tns-c2380467740-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c861545597-4.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c861545597-4.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c861545597-4:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c861545597-4:nth-of-type(2) > div.mic-button-container.ng-tns-c861545597-4.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c3329516803-5.ng-tns-c861545597-4.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c3329516803-5.mat-unthemed.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target:nth-of-type(3)",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c1892203892-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c1892203892-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2380467740-2.ng-tns-c1892203892-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2380467740-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c861545597-4.ng-tns-c2380467740-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c861545597-4.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c861545597-4.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c861545597-4:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c861545597-4:nth-of-type(2) > div.mic-button-container.ng-tns-c861545597-4.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c3329516803-5.ng-tns-c861545597-4.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c3329516803-5.mat-unthemed > span.mat-focus-indicator:nth-of-type(2)",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c1892203892-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c1892203892-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2380467740-2.ng-tns-c1892203892-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2380467740-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c861545597-4.ng-tns-c2380467740-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c861545597-4.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c861545597-4.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c861545597-4:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c861545597-4:nth-of-type(2) > div.mic-button-container.ng-tns-c861545597-4.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c3329516803-5.ng-tns-c861545597-4.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c3329516803-5.mat-unthemed",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c1892203892-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c1892203892-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2380467740-2.ng-tns-c1892203892-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2380467740-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c861545597-4.ng-tns-c2380467740-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c861545597-4.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c861545597-4.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c861545597-4:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c861545597-4:nth-of-type(2) > div.mic-button-container.ng-tns-c861545597-4.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c3329516803-5.ng-tns-c861545597-4.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c3329516803-5.mat-unthemed > span.mat-mdc-button-touch-target:nth-of-type(3)",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c3932981712-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c3932981712-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2855791770-2.ng-tns-c3932981712-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2855791770-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c1879727653-5.ng-tns-c2855791770-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c1879727653-5.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c1879727653-5.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c1879727653-5:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c1879727653-5:nth-of-type(2) > div.mic-button-container.ng-tns-c1879727653-5.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c2061411325-6.ng-tns-c1879727653-5.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c2061411325-6.mat-unthemed.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target:nth-of-type(3)",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c3932981712-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c3932981712-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2855791770-2.ng-tns-c3932981712-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2855791770-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c1879727653-5.ng-tns-c2855791770-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c1879727653-5.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c1879727653-5.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c1879727653-5:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c1879727653-5:nth-of-type(2) > div.mic-button-container.ng-tns-c1879727653-5.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c2061411325-6.ng-tns-c1879727653-5.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c2061411325-6.mat-unthemed.cdk-focused.cdk-mouse-focused",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/app/25921434076642d5",
+        "selector": "#app-root > main.chat-app > side-navigation-v2.content > bard-sidenav-container > bard-sidenav-content > div.content-wrapper:nth-of-type(2) > div.main-content.ng-trigger.ng-trigger-routeChangeAnimation > div.content-container:nth-of-type(2) > chat-window.ng-tns-c3932981712-1.ng-star-inserted > div.xap-uploader-dropzone.chat-container.ng-tns-c3932981712-1.ng-trigger.ng-trigger-chatHistoryImmersiveTransitions > input-container.ng-tns-c2855791770-2.ng-tns-c3932981712-1.input-gradient.ui-improvements-phase-1.edge-to-edge.ng-star-inserted > fieldset.input-area-container.ng-tns-c2855791770-2.ng-trigger.ng-trigger-inputAreaAnimation.ng-star-inserted > input-area-v2.ng-tns-c1879727653-5.ng-tns-c2855791770-2.ui-improvements-phase-1.with-toolbox-drawer.input-box-shadow.discovery-feed-theme.faster-input-animation.ng-star-inserted > div.input-area.ng-tns-c1879727653-5.with-toolbox-drawer.children-ready > div.text-input-field.ng-tns-c1879727653-5.with-toolbox-drawer.height-expanded-past-single-line > div.trailing-actions-wrapper.ng-tns-c1879727653-5:nth-of-type(3) > div.input-buttons-wrapper-bottom.ng-tns-c1879727653-5:nth-of-type(2) > div.mic-button-container.ng-tns-c1879727653-5.ng-trigger.ng-trigger-slide.ng-star-inserted > speech-dictation-mic-button.speech-dictation-mic-button.ng-tns-c2061411325-6.ng-tns-c1879727653-5.ng-star-inserted > button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c2061411325-6.mat-unthemed.cdk-focused.cdk-mouse-focused > span.mat-focus-indicator:nth-of-type(2)",
+        "specific": true
+      },
+      {
+        "broad": true,
+        "path": "/app/25921434076642d5",
+        "selector": "span.mat-focus-indicator",
+        "specific": true
+      },
+      {
+        "broad": true,
+        "path": "/app/25921434076642d5",
+        "selector": "span.mat-mdc-button-touch-target",
+        "specific": true
+      },
+      {
+        "broad": true,
+        "path": "/app/25921434076642d5",
+        "selector": "button.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-base.mat-mdc-tooltip-trigger.speech_dictation_mic_button.ng-tns-c2061411325-6.mat-unthemed",
+        "specific": true
+      }
+    ],
+    "kennesaw.view.usg.edu": [
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_2_2_73 > ul.d2l-datalist.vui-list.d2l-datalist-no-padding > li.d2l-datalist-item.d2l-datalist-simpleitem > div.d2l-datalist-item-content",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_2_2_73 > ul.d2l-datalist.vui-list.d2l-datalist-no-padding > li.d2l-datalist-item.d2l-datalist-simpleitem.d2l-datalist-lastchild:nth-of-type(2) > div.d2l-datalist-item-content",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_1_24_716 > div.d2l-widget-content-padding",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_1_25_601 > div.d2l-widget-content-padding > div > d2l-html-block",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_1_26_877 > div.d2l-widget-content-padding",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_1_20_43 > div.d2l-widget-content-padding",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/d2l/home",
+        "selector": "#d2l_1_18_32 > div",
+        "specific": false
+      }
+    ],
+    "kennesawedu-my.sharepoint.com": [
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#appRoot > div.root_fe43e743.od3Background_fe43e743 > div.body_78ecc076:nth-of-type(2) > div.root_78ecc076 > div.core_78ecc076:nth-of-type(2) > div.main_8b3b4fb2",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#appRoot > div.root_fe43e743.od3Background_fe43e743 > div.body_78ecc076:nth-of-type(4) > div.root_78ecc076 > div.core_78ecc076:nth-of-type(2) > div.main_8b3b4fb2",
+        "specific": false
+      }
+    ],
+    "kunmanga.com": [
+      {
+        "broad": true,
+        "path": "/manga/everyone-loves-her/chapter-47/",
+        "selector": "div.c-sub-header-nav.with-border.sticky",
+        "specific": false
+      }
+    ],
+    "spotidownloader.com": [
+      {
+        "broad": true,
+        "path": "/en12",
+        "selector": "div.fixed.inset-0.bg-black.bg-opacity-70.flex.items-center.justify-center.z-50",
+        "specific": false
+      }
+    ],
+    "www.amazon.com": [
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#rhf-shoveler",
+        "specific": true
+      }
+    ],
+    "www.google.com": [],
+    "www.reddit.com": [
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "html.theme-beta.theme-light > body > shreddit-app.overflow-visible.pt-[var(--page-y-padding)].nd-visible > div.grid-container.theme-rpl.grid.flex-nav-expanded",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#subgrid-container > div.main-container.gap-lg.w-full.flex-1.grid.place-content-between.grid-cols-[minmax(0,1fr)].fixed-sidebar.s:[&.fixed-sidebar]:grid-cols-[minmax(0,756px)_minmax(0,316px)].s:[&.flex-sidebar]:grid-cols-[minmax(0,756px)_auto]",
+        "specific": true
+      },
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#right-sidebar-contents > aside.flex.flex-col.py-md.box-border.mb-0.home-feed-right-rail:nth-of-type(2) > recent-posts.nd:bg-neutral-background-weak.nd:rounded-4.nd:pt-[54px]",
+        "specific": true
+      },
+      {
+        "broad": true,
+        "path": "/",
+        "selector": "div.mb-md.w-full",
+        "specific": true
+      }
+    ],
+    "www.youtube.com": [
+      {
+        "broad": true,
+        "path": "/results",
+        "selector": "div.ytGridShelfViewModelGridShelfRow.ytd-item-section-renderer",
+        "specific": false
+      },
+      {
+        "broad": false,
+        "path": "/",
+        "selector": "#contents",
+        "specific": true
+      },
+      {
+        "broad": true,
+        "path": "/watch",
+        "selector": "div.style-scope.yt-horizontal-list-renderer",
+        "specific": false
+      },
+      {
+        "broad": true,
+        "path": "/watch",
+        "selector": "ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer",
+        "specific": false
+      },
+      {
+        "broad": true,
+        "path": "/watch",
+        "selector": "ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer",
+        "specific": false
+      }
+    ]
+  }
+}
