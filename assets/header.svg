@@ -5,6 +5,7 @@
   height="220"
   viewBox="0 0 854 220"
   fill="none"
+
 >
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
@@ -131,14 +132,16 @@
     /* ── TYPING ──────────────────────────────────── */
     .typed { font-family: 'Caveat', cursive; font-size: 30px; font-weight: 700; }
     .line1 { fill: #C5C6C8; }
-    .line2 { fill: #0B1315; }
+    .line2 { fill: #FFFFFF; }
     .line3 { fill: #FDBB30; }
-    @media (prefers-color-scheme: dark) { .line2 { fill: #FFFFFF; } }
   </style>
+
+  <!-- ═══ BACKGROUND ════════════════════════════════ -->
+  <rect width="854" height="220" fill="#0d1117" />
 
   <!-- ═══ TOP DOTTED LINE ═══════════════════════════ -->
   <line x1="0" y1="103" x2="854" y2="103"
-        stroke="currentColor" stroke-width="2" opacity="0.2"
+        stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
 
   <!-- ═══ SCENE 1: WALKER ═══════════════════════════ -->
@@ -148,7 +151,7 @@
       <!-- Walking pose -->
       <g class="wk-walk">
         <g class="wk-bouncer">
-          <g stroke="#050505" stroke-width="4">
+          <g stroke="#e6edf3" stroke-width="4">
             <path d="M 50 32 Q 35 45 30 55">
               <animate attributeName="d" dur="1s" repeatCount="indefinite"
                        keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
@@ -162,11 +165,11 @@
                        values="M 50 60 Q 65 75 70 95; M 50 60 Q 60 80 50 95; M 50 60 Q 45 80 30 95; M 50 60 Q 70 70 40 85; M 50 60 Q 65 75 70 95" />
             </path>
           </g>
-          <g stroke="currentColor" stroke-width="4">
+          <g stroke="#e6edf3" stroke-width="4">
             <circle cx="50" cy="20" r="10" />
             <line x1="50" y1="30" x2="50" y2="60" />
           </g>
-          <g stroke="currentColor" stroke-width="4">
+          <g stroke="#e6edf3" stroke-width="4">
             <path d="M 50 32 Q 65 45 70 55">
               <animate attributeName="d" dur="1s" repeatCount="indefinite"
                        keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
@@ -185,15 +188,15 @@
 
       <!-- Waving pose -->
       <g class="wk-wave" stroke-width="4">
-        <g stroke="#050505">
+        <g stroke="#e6edf3">
           <path d="M 50 60 Q 40 80 35 95" />
           <path d="M 50 32 Q 35 45 35 60" />
         </g>
-        <g stroke="currentColor">
+        <g stroke="#e6edf3">
           <circle cx="50" cy="20" r="10" />
           <line x1="50" y1="30" x2="50" y2="60" />
         </g>
-        <g stroke="currentColor">
+        <g stroke="#e6edf3">
           <path d="M 50 60 Q 60 80 65 95" />
           <path class="wk-waving-arm" d="M 50 32 Q 70 40 75 15" />
         </g>
@@ -205,7 +208,7 @@
   <!-- ═══ SCENE 2: SKATER ════════════════════════════ -->
   <g class="scene-sk">
     <g class="sk-group" stroke-linecap="round" fill="none">
-      <g stroke="#050505">
+      <g stroke="#e6edf3">
         <path stroke-width="4" d="M 50 60 Q 40 70 35 91">
           <animate attributeName="d" dur="2s" repeatCount="indefinite"
                    keyTimes="0; 0.2; 0.4; 0.6; 1" calcMode="spline"
@@ -219,14 +222,14 @@
                    values="M 60 32 Q 50 45 45 60; M 60 32 Q 45 45 35 55; M 60 32 Q 35 45 25 50; M 60 32 Q 45 45 40 60; M 60 32 Q 50 45 45 60" />
         </path>
       </g>
-      <g stroke="currentColor">
+      <g stroke="#e6edf3">
         <path d="M 20 88 L 30 93 L 70 93 L 80 88" stroke-width="3" stroke-linejoin="round" />
         <circle cx="35" cy="99" r="4" stroke-width="2" />
         <circle class="sk-wheel" cx="35" cy="99" r="2" stroke-width="2" stroke-dasharray="2 2" />
         <circle cx="65" cy="99" r="4" stroke-width="2" />
         <circle class="sk-wheel" cx="65" cy="99" r="2" stroke-width="2" stroke-dasharray="2 2" />
       </g>
-      <g stroke="currentColor" stroke-width="4">
+      <g stroke="#e6edf3" stroke-width="4">
         <circle cx="65" cy="22" r="10" />
         <line x1="50" y1="60" x2="60" y2="32" />
         <path d="M 50 60 Q 55 75 55 91">
@@ -248,7 +251,7 @@
   <!-- ═══ SCENE 3: CYCLIST ═══════════════════════════ -->
   <g class="scene-bi">
     <g class="bi-group" stroke-linecap="round" fill="none">
-      <g stroke="#050505">
+      <g stroke="#e6edf3">
         <g class="bi-crank">
           <line x1="50" y1="80" x2="50" y2="92" stroke-width="3" />
         </g>
@@ -259,7 +262,7 @@
         </path>
         <path d="M 58 30 Q 65 45 75 45" stroke-width="4" />
       </g>
-      <g stroke="currentColor" stroke-width="2">
+      <g stroke="#e6edf3" stroke-width="2">
         <circle cx="20" cy="80" r="16" />
         <circle class="bi-wheel" cx="20" cy="80" r="14" stroke-dasharray="6 6" opacity="0.5" />
         <circle cx="80" cy="80" r="16" />
@@ -270,11 +273,11 @@
         <line x1="50" y1="80" x2="75" y2="45" />
         <line x1="40" y1="55" x2="75" y2="45" />
         <line x1="80" y1="80" x2="73" y2="38" />
-        <circle cx="50" cy="80" r="4" fill="currentColor" />
+        <circle cx="50" cy="80" r="4" fill="#e6edf3" />
         <path d="M 68 40 Q 75 38 80 45" stroke-width="3" />
         <line x1="35" y1="53" x2="45" y2="53" stroke-width="4" />
       </g>
-      <g stroke="currentColor" stroke-width="4">
+      <g stroke="#e6edf3" stroke-width="4">
         <circle cx="62" cy="20" r="10" />
         <line x1="40" y1="50" x2="58" y2="30" />
         <g class="bi-crank">
@@ -326,7 +329,7 @@
 
   <!-- ═══ BOTTOM DOTTED LINE ════════════════════════ -->
   <line x1="0" y1="150" x2="854" y2="150"
-        stroke="currentColor" stroke-width="2" opacity="0.2"
+        stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
 
   <!-- ═══ TYPING ANIMATION ══════════════════════════ -->
