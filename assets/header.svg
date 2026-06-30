@@ -45,35 +45,27 @@
     .scene-sk { animation: fadeSk 10600ms linear infinite; }
     .scene-bi { animation: fadeBi 10600ms linear infinite; }
 
-    /* ── WALKER (scene 1, 0–47.17%) ──────────────────
-       Walk in 2s → wave 1s → walk out 2s
-       Cross: -100px @ 0% → 375px @ 18.87% → hold → 950px @ 47.17%
-    ─────────────────────────────────────────────────── */
-    .wk-mover { animation: wkCross 10600ms linear infinite; }
+    /* ── WALKER — slow independent cross (9s) ── */
+    .wk-mover { animation: wkCross 9s linear infinite; }
     @keyframes wkCross {
-      0%       { transform: translateX(-100px); }
-      18.868%  { transform: translateX(375px);  }
-      28.302%  { transform: translateX(375px);  }
-      47.17%   { transform: translateX(1000px); }
-      47.171%  { transform: translateX(-100px); }
-      100%     { transform: translateX(-100px); }
+      0%   { transform: translateX(-100px); }
+      40%  { transform: translateX(375px);  }
+      60%  { transform: translateX(375px);  }
+      100% { transform: translateX(1000px); }
     }
 
-    .wk-walk { animation: wkToggleWalk 10600ms linear infinite; }
-    .wk-wave { animation: wkToggleWave 10600ms linear infinite; opacity: 0; }
+    .wk-walk { animation: wkToggleWalk 9s linear infinite; }
+    .wk-wave { animation: wkToggleWave 9s linear infinite; opacity: 0; }
 
     @keyframes wkToggleWalk {
-      0%, 18.8%    { opacity: 1; }
-      18.868%      { opacity: 0; }
-      28.302%      { opacity: 0; }
-      28.4%, 47.17%{ opacity: 1; }
-      47.171%, 100%{ opacity: 1; }
+      0%, 39.9%    { opacity: 1; }
+      40%, 60%     { opacity: 0; }
+      60.1%, 100%  { opacity: 1; }
     }
     @keyframes wkToggleWave {
-      0%, 18.8%    { opacity: 0; }
-      18.868%      { opacity: 1; }
-      28.302%      { opacity: 1; }
-      28.4%, 100%  { opacity: 0; }
+      0%, 39.9%    { opacity: 0; }
+      40%, 60%     { opacity: 1; }
+      60.1%, 100%  { opacity: 0; }
     }
 
     .wk-bouncer { animation: wkBounce 0.5s infinite ease-in-out; }
@@ -90,15 +82,11 @@
       100% { transform: rotate(-25deg); }
     }
 
-    /* ── SKATER (scene 2, 47.17%–73.585%) ───────────
-       Cross: -150px @ 47.17% → 1000px @ 73.585%
-    ─────────────────────────────────────────────────── */
-    .sk-group { animation: skCross 10600ms linear infinite; }
+    /* ── SKATER — slow independent cross (9s) ── */
+    .sk-group { animation: skCross 9s linear infinite; }
     @keyframes skCross {
-      0%, 47.17%   { transform: translateX(-150px); }
-      73.585%      { transform: translateX(1000px); }
-      73.586%      { transform: translateX(-150px); }
-      100%         { transform: translateX(-150px); }
+      0%   { transform: translateX(-150px); }
+      100% { transform: translateX(1000px); }
     }
     .sk-wheel {
       transform-origin: center;
@@ -107,13 +95,11 @@
     }
     @keyframes skSpin { 100% { transform: rotate(360deg); } }
 
-    /* ── CYCLIST (scene 3, 73.585%–100%) ────────────
-       Cross: -150px @ 73.585% → 1000px @ 100%
-    ─────────────────────────────────────────────────── */
-    .bi-group { animation: biCross 10600ms linear infinite; }
+    /* ── CYCLIST — slow independent cross (9s) ── */
+    .bi-group { animation: biCross 9s linear infinite; }
     @keyframes biCross {
-      0%, 73.585%  { transform: translateX(-150px); }
-      100%         { transform: translateX(1000px); }
+      0%   { transform: translateX(-150px); }
+      100% { transform: translateX(1000px); }
     }
     .bi-wheel {
       transform-origin: center;
@@ -339,7 +325,7 @@
     <path id="tp0">
       <animate id="td0" attributeName="d"
                begin="0s;td2.end" dur="5000ms" fill="remove"
-               values="m0,30 h0 ; m0,30 h550 ; m0,30 h550 ; m0,30 h0"
+               values="m0,30 h0 ; m0,30 h810 ; m0,30 h810 ; m0,30 h0"
                keyTimes="0;0.6;0.8;1"/>
     </path>
     <text class="typed line1" dominant-baseline="middle">
