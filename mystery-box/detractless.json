@@ -142,28 +142,6 @@
       }
     ]
   },
-  "activeTabs": [
-    {
-      "id": "search",
-      "label": "HOME",
-      "type": "search"
-    },
-    {
-      "id": 1,
-      "label": "College",
-      "type": "bookmarks"
-    },
-    {
-      "id": 2,
-      "label": "Services",
-      "type": "bookmarks"
-    },
-    {
-      "id": 1775055552696,
-      "label": "AI",
-      "type": "bookmarks"
-    }
-  ],
   "Theme": {
     "CustomColors": {
       "BorderColor": "#444444",
@@ -174,7 +152,7 @@
       "TextSecondary": "#999999",
       "WindowBackground": "#1E1E1E"
     },
-    "Theme": "dark",
+    "Theme": "light",
     "_comment": "Theme settings: 'system' <- Follows System settings (Light/Dark). 'dark' <- Forces standard Dark mode. 'light' <- Forces standard Light mode. 'custom' <- Uses the CustomColors mapped below. Note: To apply changes, reload the page."
   },
   "tabLimit": 10,
@@ -210,11 +188,10 @@
   },
   "customEngineIcons": {},
   "defaultEngineKey": "google",
-  "selectedSearchEngine": "google",
+  "selectedSearchEngine": "default",
   "fadeInEnabled": true,
   "spotlightVisible": true,
   "searchEngineBehavior": "always-default",
-  "fadeSpeed": "1.5",
   "rhe_rules": {
     "asuracomic.net": [
       {
@@ -427,5 +404,12 @@
         "specific": false
       }
     ]
+  },
+  "githubSync": {
+    "lastSync": 1783140214860,
+    "mode": "manual",
+    "token": "",
+    "url": "https://raw.githubusercontent.com/Detractless/Detractless/main/mystery-box/detractless.json",
+    "writeback": false
   }
 }
