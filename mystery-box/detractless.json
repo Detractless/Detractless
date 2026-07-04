@@ -142,6 +142,165 @@
       }
     ]
   },
+  "page1783572000000": {
+    "GENERAL": [
+      {
+        "name": "Indeed",
+        "url": "https://indeed.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/jobs"
+      },
+      {
+        "name": "Glassdoor",
+        "url": "https://glassdoor.com"
+      },
+      {
+        "name": "ZipRecruiter",
+        "url": "https://ziprecruiter.com"
+      },
+      {
+        "name": "Monster",
+        "url": "https://monster.com"
+      },
+      {
+        "name": "CareerBuilder",
+        "url": "https://careerbuilder.com"
+      }
+    ],
+    "AGGREGATORS": [
+      {
+        "name": "Google for Jobs",
+        "url": "https://jobs.google.com"
+      },
+      {
+        "name": "SimplyHired",
+        "url": "https://simplyhired.com"
+      },
+      {
+        "name": "Adzuna",
+        "url": "https://www.adzuna.com"
+      },
+      {
+        "name": "Jooble",
+        "url": "https://jooble.org"
+      },
+      {
+        "name": "Joblist",
+        "url": "https://joblist.com"
+      },
+      {
+        "name": "Lensa",
+        "url": "https://lensa.com"
+      }
+    ],
+    "NICHE": [
+      {
+        "name": "Dice",
+        "url": "https://dice.com"
+      },
+      {
+        "name": "Wellfound",
+        "url": "https://wellfound.com"
+      },
+      {
+        "name": "Hired",
+        "url": "https://hired.com"
+      },
+      {
+        "name": "Snagajob",
+        "url": "https://snagajob.com"
+      },
+      {
+        "name": "Jobcase",
+        "url": "https://www.jobcase.com"
+      },
+      {
+        "name": "Workstream",
+        "url": "https://www.workstream.us"
+      },
+      {
+        "name": "Handshake",
+        "url": "https://joinhandshake.com"
+      },
+      {
+        "name": "WayUp",
+        "url": "https://www.wayup.com"
+      },
+      {
+        "name": "USAJobs",
+        "url": "https://www.usajobs.gov"
+      },
+      {
+        "name": "Idealist",
+        "url": "https://www.idealist.org"
+      },
+      {
+        "name": "The Ladders",
+        "url": "https://www.theladders.com"
+      },
+      {
+        "name": "ExecThread",
+        "url": "https://www.execthread.com"
+      },
+      {
+        "name": "iHire",
+        "url": "https://www.ihire.com"
+      },
+      {
+        "name": "Culinary Agents",
+        "url": "https://culinaryagents.com"
+      }
+    ],
+    "REMOTE": [
+      {
+        "name": "FlexJobs",
+        "url": "https://www.flexjobs.com"
+      },
+      {
+        "name": "We Work Remotely",
+        "url": "https://weworkremotely.com"
+      },
+      {
+        "name": "Remote.co",
+        "url": "https://remote.co"
+      }
+    ],
+    "LOCAL": [
+      {
+        "name": "Craigslist (ATL)",
+        "url": "https://atlanta.craigslist.org/d/jobs/search/jjj"
+      }
+    ]
+  },
+  "activeTabs": [
+    {
+      "id": "search",
+      "label": "HOME",
+      "type": "search"
+    },
+    {
+      "id": 1,
+      "label": "College",
+      "type": "bookmarks"
+    },
+    {
+      "id": 2,
+      "label": "Services",
+      "type": "bookmarks"
+    },
+    {
+      "id": 1775055552696,
+      "label": "AI",
+      "type": "bookmarks"
+    },
+    {
+      "id": 1783572000000,
+      "label": "Jobs",
+      "type": "bookmarks"
+    }
+  ],
   "Theme": {
     "CustomColors": {
       "BorderColor": "#444444",
@@ -188,7 +347,7 @@
   },
   "customEngineIcons": {},
   "defaultEngineKey": "google",
-  "selectedSearchEngine": "default",
+  "selectedSearchEngine": "google",
   "fadeInEnabled": true,
   "spotlightVisible": true,
   "searchEngineBehavior": "always-default",
