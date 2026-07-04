@@ -183,26 +183,26 @@
   "showQueryOnDelay": true,
   "customSearchEngines": {
     "default": {
-      "icon": "svg/default.api.svg",
+      "icon": "src/assets/svg/default.api.svg",
       "isDefault": true,
       "isHidden": true,
       "name": "Browser Default",
       "url": "null"
     },
     "google": {
-      "icon": "svg/google.com.svg",
+      "icon": "src/assets/svg/google.com.svg",
       "isDefault": true,
       "name": "Google",
       "url": "https://www.google.com/search?q="
     },
     "reddit": {
-      "icon": "svg/reddit.com.svg",
+      "icon": "src/assets/svg/reddit.com.svg",
       "isDefault": true,
       "name": "Reddit",
       "url": "https://www.reddit.com/search/?q="
     },
     "youtube": {
-      "icon": "svg/youtube.com.svg",
+      "icon": "src/assets/svg/youtube.com.svg",
       "isDefault": true,
       "name": "YouTube",
       "url": "https://www.youtube.com/results?search_query="
