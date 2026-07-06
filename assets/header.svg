@@ -2,8 +2,8 @@
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="854"
-  height="220"
-  viewBox="0 0 854 220"
+  height="140"
+  viewBox="0 0 854 140"
   fill="none"
 >
   <style>
@@ -22,47 +22,47 @@
   </style>
 
   <!-- ═══ BACKGROUND ════════════════════════════════ -->
-  <rect width="854" height="220" fill="#0d1117" />
+  <rect width="854" height="140" fill="#0d1117" />
 
   <!-- ═══ TOP DOTTED LINE ═══════════════════════════ -->
-  <line x1="0" y1="103" x2="854" y2="103"
+  <line x1="0" y1="20" x2="854" y2="20"
         stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
 
   <!-- ═══ STATS ROW ══════════════════════════════════ -->
   <g>
-    <rect x="67" y="113" width="110" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
-    <text x="122" y="121" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
-    <text x="122" y="138"  class="stat-label" text-anchor="middle">top lang</text>
+    <rect x="67" y="30" width="110" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
+    <text x="122" y="38" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
+    <text x="122" y="55"  class="stat-label" text-anchor="middle">top lang</text>
   </g>
   <g>
-    <text x="268" y="122" class="stat-val" text-anchor="middle">310</text>
-    <text x="268" y="138" class="stat-label" text-anchor="middle">commits</text>
+    <text x="268" y="39" class="stat-val" text-anchor="middle">310</text>
+    <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
   </g>
   <g>
-    <text x="390" y="122" class="stat-val" text-anchor="middle">7</text>
-    <text x="390" y="138" class="stat-label" text-anchor="middle">stars</text>
+    <text x="390" y="39" class="stat-val" text-anchor="middle">7</text>
+    <text x="390" y="55" class="stat-label" text-anchor="middle">stars</text>
   </g>
   <g>
-    <text x="500" y="122" class="stat-val" text-anchor="middle">4</text>
-    <text x="500" y="138" class="stat-label" text-anchor="middle">repos</text>
+    <text x="500" y="39" class="stat-val" text-anchor="middle">4</text>
+    <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
   </g>
   <g>
-    <text x="622" y="122" class="stat-val" text-anchor="middle">3</text>
-    <text x="622" y="138" class="stat-label" text-anchor="middle">open</text>
+    <text x="622" y="39" class="stat-val" text-anchor="middle">3</text>
+    <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
   </g>
   <g>
-    <text x="744" y="122" class="stat-val" text-anchor="middle">4</text>
-    <text x="744" y="138" class="stat-label" text-anchor="middle">closed</text>
+    <text x="744" y="39" class="stat-val" text-anchor="middle">4</text>
+    <text x="744" y="55" class="stat-label" text-anchor="middle">closed</text>
   </g>
 
   <!-- ═══ BOTTOM DOTTED LINE ════════════════════════ -->
-  <line x1="0" y1="150" x2="854" y2="150"
+  <line x1="0" y1="67" x2="854" y2="67"
         stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
 
   <!-- ═══ TYPING ANIMATION ══════════════════════════ -->
-  <g transform="translate(20, 155)">
+  <g transform="translate(20, 72)">
     <path id="tp0">
       <animate id="td0" attributeName="d"
                begin="0s;td2.end" dur="5000ms" fill="remove"
