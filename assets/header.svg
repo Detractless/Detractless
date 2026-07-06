@@ -9,16 +9,6 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
 
-    /* ── WAVER — stationary waving arm ── */
-    .wk-waving-arm {
-      transform-origin: 50px 32px;
-      animation: wkWaveAction 0.25s infinite alternate ease-in-out;
-    }
-    @keyframes wkWaveAction {
-      0%   { transform: rotate(15deg);  }
-      100% { transform: rotate(-25deg); }
-    }
-
     /* ── STATS ───────────────────────────────────── */
     .stat-label { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; fill: #8b949e; }
     .stat-val   { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
@@ -38,27 +28,6 @@
   <line x1="0" y1="103" x2="854" y2="103"
         stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
-
-  <!-- ═══ WAVER ═════════════════════════════════════ -->
-  <g transform="translate(377, 0)">
-    <g stroke-linecap="round" fill="none" stroke-width="4">
-      <!-- Static Left Arm and Leg -->
-      <g stroke="#e6edf3">
-        <path d="M 50 60 Q 40 80 35 95" />
-        <path d="M 50 32 Q 35 45 35 60" />
-      </g>
-      <!-- Static Body and Head -->
-      <g stroke="#e6edf3">
-        <circle cx="50" cy="20" r="10" />
-        <line x1="50" y1="30" x2="50" y2="60" />
-      </g>
-      <!-- Static Right Leg and Waving Arm -->
-      <g stroke="#e6edf3">
-        <path d="M 50 60 Q 60 80 65 95" />
-        <path class="wk-waving-arm" d="M 50 32 Q 70 40 75 15" />
-      </g>
-    </g>
-  </g>
 
   <!-- ═══ STATS ROW ══════════════════════════════════ -->
   <g>
