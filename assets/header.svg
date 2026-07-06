@@ -9,34 +9,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
 
-    /* ── WALKER — slow independent cross (9s) ── */
-    .wk-mover { animation: wkCross 9s linear infinite; }
-    @keyframes wkCross {
-      0%   { transform: translateX(-100px); }
-      40%  { transform: translateX(375px);  }
-      60%  { transform: translateX(375px);  }
-      100% { transform: translateX(1000px); }
-    }
-
-    .wk-walk { animation: wkToggleWalk 9s linear infinite; }
-    .wk-wave { animation: wkToggleWave 9s linear infinite; opacity: 0; }
-
-    @keyframes wkToggleWalk {
-      0%, 39.9%    { opacity: 1; }
-      40%, 60%     { opacity: 0; }
-      60.1%, 100%  { opacity: 1; }
-    }
-    @keyframes wkToggleWave {
-      0%, 39.9%    { opacity: 0; }
-      40%, 60%     { opacity: 1; }
-      60.1%, 100%  { opacity: 0; }
-    }
-
-    .wk-bouncer { animation: wkBounce 0.5s infinite ease-in-out; }
-    @keyframes wkBounce {
-      0%, 100% { transform: translateY(3px); }
-      50%      { transform: translateY(0px);  }
-    }
+    /* ── WAVER — stationary waving arm ── */
     .wk-waving-arm {
       transform-origin: 50px 32px;
       animation: wkWaveAction 0.25s infinite alternate ease-in-out;
@@ -66,64 +39,24 @@
         stroke="#e6edf3" stroke-width="2" opacity="0.2"
         stroke-linecap="round" stroke-dasharray="10 10" />
 
-  <!-- ═══ WALKER ════════════════════════════════════ -->
-  <g>
-    <g class="wk-mover" stroke-linecap="round" fill="none">
-
-      <!-- Walking pose -->
-      <g class="wk-walk">
-        <g class="wk-bouncer">
-          <g stroke="#e6edf3" stroke-width="4">
-            <path d="M 50 32 Q 35 45 30 55">
-              <animate attributeName="d" dur="1s" repeatCount="indefinite"
-                       keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
-                       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-                       values="M 50 32 Q 35 45 30 55; M 50 32 Q 45 45 50 60; M 50 32 Q 65 45 70 55; M 50 32 Q 55 45 50 60; M 50 32 Q 35 45 30 55" />
-            </path>
-            <path d="M 50 60 Q 65 75 70 95">
-              <animate attributeName="d" dur="1s" repeatCount="indefinite"
-                       keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
-                       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-                       values="M 50 60 Q 65 75 70 95; M 50 60 Q 60 80 50 95; M 50 60 Q 45 80 30 95; M 50 60 Q 70 70 40 85; M 50 60 Q 65 75 70 95" />
-            </path>
-          </g>
-          <g stroke="#e6edf3" stroke-width="4">
-            <circle cx="50" cy="20" r="10" />
-            <line x1="50" y1="30" x2="50" y2="60" />
-          </g>
-          <g stroke="#e6edf3" stroke-width="4">
-            <path d="M 50 32 Q 65 45 70 55">
-              <animate attributeName="d" dur="1s" repeatCount="indefinite"
-                       keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
-                       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-                       values="M 50 32 Q 65 45 70 55; M 50 32 Q 55 45 50 60; M 50 32 Q 35 45 30 55; M 50 32 Q 45 45 50 60; M 50 32 Q 65 45 70 55" />
-            </path>
-            <path d="M 50 60 Q 45 80 30 95">
-              <animate attributeName="d" dur="1s" repeatCount="indefinite"
-                       keyTimes="0; 0.25; 0.5; 0.75; 1" calcMode="spline"
-                       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
-                       values="M 50 60 Q 45 80 30 95; M 50 60 Q 70 70 40 85; M 50 60 Q 65 75 70 95; M 50 60 Q 60 80 50 95; M 50 60 Q 45 80 30 95" />
-            </path>
-          </g>
-        </g>
+  <!-- ═══ WAVER ═════════════════════════════════════ -->
+  <g transform="translate(377, 0)">
+    <g stroke-linecap="round" fill="none" stroke-width="4">
+      <!-- Static Left Arm and Leg -->
+      <g stroke="#e6edf3">
+        <path d="M 50 60 Q 40 80 35 95" />
+        <path d="M 50 32 Q 35 45 35 60" />
       </g>
-
-      <!-- Waving pose -->
-      <g class="wk-wave" stroke-width="4">
-        <g stroke="#e6edf3">
-          <path d="M 50 60 Q 40 80 35 95" />
-          <path d="M 50 32 Q 35 45 35 60" />
-        </g>
-        <g stroke="#e6edf3">
-          <circle cx="50" cy="20" r="10" />
-          <line x1="50" y1="30" x2="50" y2="60" />
-        </g>
-        <g stroke="#e6edf3">
-          <path d="M 50 60 Q 60 80 65 95" />
-          <path class="wk-waving-arm" d="M 50 32 Q 70 40 75 15" />
-        </g>
+      <!-- Static Body and Head -->
+      <g stroke="#e6edf3">
+        <circle cx="50" cy="20" r="10" />
+        <line x1="50" y1="30" x2="50" y2="60" />
       </g>
-
+      <!-- Static Right Leg and Waving Arm -->
+      <g stroke="#e6edf3">
+        <path d="M 50 60 Q 60 80 65 95" />
+        <path class="wk-waving-arm" d="M 50 32 Q 70 40 75 15" />
+      </g>
     </g>
   </g>
 
