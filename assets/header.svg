@@ -32,27 +32,27 @@
   <!-- ═══ STATS ROW ══════════════════════════════════ -->
   <g>
     <rect x="67" y="30" width="110" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
-    <text x="122" y="38" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
+    <text id="val-lang" x="122" y="38" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
     <text x="122" y="55"  class="stat-label" text-anchor="middle">top lang</text>
   </g>
   <g>
-    <text x="268" y="39" class="stat-val" text-anchor="middle">310</text>
+    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">310</text>
     <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
   </g>
   <g>
-    <text x="390" y="39" class="stat-val" text-anchor="middle">7</text>
+    <text id="val-stars" x="390" y="39" class="stat-val" text-anchor="middle">7</text>
     <text x="390" y="55" class="stat-label" text-anchor="middle">stars</text>
   </g>
   <g>
-    <text x="500" y="39" class="stat-val" text-anchor="middle">4</text>
+    <text id="val-repos" x="500" y="39" class="stat-val" text-anchor="middle">4</text>
     <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
   </g>
   <g>
-    <text x="622" y="39" class="stat-val" text-anchor="middle">3</text>
+    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">3</text>
     <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
   </g>
   <g>
-    <text x="744" y="39" class="stat-val" text-anchor="middle">4</text>
+    <text id="val-closed" x="744" y="39" class="stat-val" text-anchor="middle">4</text>
     <text x="744" y="55" class="stat-label" text-anchor="middle">closed</text>
   </g>
 
