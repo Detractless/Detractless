@@ -36,7 +36,7 @@
     <text x="122" y="55"  class="stat-label" text-anchor="middle">top lang</text>
   </g>
   <g>
-    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">333</text>
+    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">334</text>
     <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
   </g>
   <g>
@@ -48,7 +48,7 @@
     <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
   </g>
   <g>
-    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">1</text>
+    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">2</text>
     <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
   </g>
   <g>
