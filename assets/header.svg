@@ -36,7 +36,7 @@
     <text x="122" y="55"  class="stat-label" text-anchor="middle">top lang</text>
   </g>
   <g>
-    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">338</text>
+    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">341</text>
     <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
   </g>
   <g>
