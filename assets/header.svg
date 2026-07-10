@@ -40,7 +40,7 @@
     <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
   </g>
   <g>
-    <text id="val-stars" x="390" y="39" class="stat-val" text-anchor="middle">8</text>
+    <text id="val-stars" x="390" y="39" class="stat-val" text-anchor="middle">9</text>
     <text x="390" y="55" class="stat-label" text-anchor="middle">stars</text>
   </g>
   <g>
