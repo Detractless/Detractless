@@ -1,0 +1,255 @@
+=== SYSTEM PROMPT ===
+You will be asked questions about the email below.
+
+[MARKETING: unsubscribe/legal footer detected]
+FROM: Disqus Digest <>
+SUBJECT: [10]"CustomizerGod"
+
+KRIS the mobster 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Welcome to the new Disqus Digest 
+ We've revamped the Disqus Digest based on user feedback to include more relevant content tailored to you. Learn more . 
+ 
+ You can update how often you receive Digests—or unsubscribe entirely—by adjusting your notification settings . 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Top Stories For You 
+
+ 
+ 
+ 
+ 
+ CustomizerGod 
+ 
+ door2windows  • 1 month ago
+ 
+ 
+ CustomizerGod is the ultimate tool for customizing Windows. It lets you customize almost any part of Windows according to your taste. Like if you...
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0 comments 
+ 
+ 
+ View Discussion → 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Windows 7 Start Button Animator : Get Animated Start Button in Windows 7 
+ 
+ door2windows  • 2 years ago
+ 
+ 
+ Windows 7 Start Button Animator is a free portable tool that allows you to set an animated start button in Windows 7. You can set any animated GIF...
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0 comments 
+ 
+ 
+ View Discussion → 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Another Bazzite Linux update has been released with updated components 
+ 
+ MajorGeeks.com  • 2 days ago
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0 comments 
+ 
+ 
+ View Discussion → 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ See more recommended content 
+ 
+ 
+ 
+
+ 
+ 
+ Your Disqus Activity 
+
+ 
+ 
+ 
+ 
+ 
+ Comments Posted 
+ 
+ 0 
+ 
+ 
+ 
+ 
+ Upvotes Received 
+ 
+ 0 
+ 
+ 
+ 
+ 
+ Reactions Given 
+ 
+ 0 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Replies Received 
+ 
+ 0 
+ 
+ 
+ 
+ 
+ Favorited Discussions 
+ 
+ 0 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Got a question?
+ Ask in our community 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Disqus, 201 California Suite 200, San Francisco, CA 94111
+ 
+ You're receiving this email because you've signed up for Disqus Digests.
+
+=== USER MESSAGE ===
+What is the PRIMARY purpose of the email above? Reply with exactly one word.
+
+Choose the label that matches the sender's main intent:
+
+markets   - sender promotes, sells, or advertises something (e.g. "60% off", newsletter highlights, product launch)
+asks      - sender needs a reply, decision, or action from the recipient (e.g. "confirm your subscription", "reply yes or no")
+instructs - sender gives steps the recipient must follow (e.g. "click here to reset your password", "follow these steps")
+informs   - sender shares news or updates only, nothing is required (e.g. new research published, digest of recent posts)
+
+Rules:
+- If there is a discount, offer, or promotion -> markets
+- If there is a question or request for a reply -> asks
+- If there are numbered steps or action instructions -> instructs
+- Otherwise -> informs
+
+One word only:
