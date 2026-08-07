@@ -65,6 +65,18 @@ if the work is for the business). But `grammarly/coedit` (dataset) is **Apache-2
 our OWN model on that data commercially. Don't confuse the two. (And never rename/obscure a model to
 dodge its license — that's infringement.)
 
+### 7. Model size scaling — the failure MODE matters more than raw size
+Tested LFM2.5-230M, LFM2.5-350M, Qwen2.5-0.5B-Instruct, LFM2-700M with the SAME JSON + system prompt.
+Bigger is not strictly better; what matters is *how* a model fails on long inputs:
+- **LFM models DROP/summarize content on long inputs** (LFM2.5-350M cut a 323-word dictation to 124 by
+  deleting the whole first half). Dangerous — you lose what you said.
+- **Qwen2.5-0.5B-Instruct PRESERVES content** (worst case it under-cleans / passes text through), never
+  drops it. For dictation, that is the *right* failure mode.
+- **~350M is the floor** for reliable structured output on long text: LFM2.5-230M produced malformed
+  JSON on the long inputs and mangled a 15-word sentence down to one word ("care").
+- **Emerging leader: Qwen2.5-0.5B-Instruct** — smaller than 700M (644 MB), 100% JSON-reliable, fast,
+  and the safest on long inputs. Also the base we'd fine-tune on later, so the family stays consistent.
+
 ## The winning config (so far)
 
 **LFM2-700M (Q8 GGUF) + JSON schema (`{cleaned_text}`) + edit-only system prompt + temp 0.2**, run on
