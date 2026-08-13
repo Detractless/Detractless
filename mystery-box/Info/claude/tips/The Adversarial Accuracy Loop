@@ -1,0 +1,149 @@
+# The Adversarial Accuracy Loop — a reusable method
+
+*A high-level, project-agnostic playbook distilled from the DW Bridges dictation-cleanup campaign
+(2026-08). Use it to bootstrap any project where the goal is: maximize AI autonomy while improving
+accuracy, without constant user back-and-forth — and without the AI fooling itself.*
+
+---
+
+## The core idea in one paragraph
+
+Many AI agents **propose** in parallel; a piece of **code judges** them against measured reference
+data; a **human rules only at decision gates**; and a **curated failure ledger** carries every
+lesson forward so no agent ever re-walks a dead end. The user's time is spent on the ~5 decisions
+that actually need human judgment, not on supervising the work. Everything else runs autonomously —
+and the system is built so that being *wrong* gets caught by machinery, not by hoping someone
+notices.
+
+---
+
+## What we actually did, step by step
+
+### 1. Established ground truth FIRST (before any solution work)
+- Built a **gold-standard reference set** (40 human-approved examples) defining what "correct"
+  means. The user calibrated it: a 10-item sample review settled 5 explicit policy questions
+  (what may be changed, what must never be), then the remaining 30 were authored to that standard.
+- An **independent adversarial agent audited the gold set itself** before it froze (0 violations,
+  6 minors fixed via visible errata).
+- **Rule: outside datasets and model outputs are SIGNAL, never ground truth.** Only the
+  user-calibrated gold set judges correctness.
+
+### 2. Built the judge before the contestants
+- A **fixed contract** every proposal must implement: one function signature, with **ABSTAIN as a
+  first-class answer** ("I'm not sure" is always legal and always safe). This encodes the safety
+  law in the API instead of trusting each author's discipline.
+- An **automated harness** that scores every proposal against reference data in seconds — so
+  testing 20 ideas costs the same as testing 1. That's what makes massive parallelism *useful*
+  instead of just noisy.
+- **The harness self-test**: before trusting any number, the judge must (a) give a perfect oracle a
+  perfect score and (b) catch a known-bad rule. Ours FAILED its first self-test — which exposed two
+  real defects that would have silently corrupted every later verdict.
+- **A disqualifying metric with a hard bar**: "over-reach" (destroying content the reference kept)
+  ranks above everything. A high-coverage rule that violates it is disqualified, never "tuned later."
+
+### 3. Spread the thinking across many models — structured, not scattered
+- **6 proposer agents** in one orchestrated workflow, forced onto **different angles** (so they
+  don't produce six copies of the same idea) across **two tracks** (pure-code rules vs
+  model-assisted rules), on **mixed model types** for genuine viewpoint diversity.
+- **Hard requirement: proposals arrive as EXECUTABLE CODE against the contract.** Prose is an
+  opinion, and plausible-sounding opinions are exactly what produced the original bug. Anything
+  that can't be run through the harness is auto-rejected.
+- **Pipelined, not batched**: the moment each proposal landed, a *different* agent attacked it —
+  no waiting for all six.
+
+### 4. Attacked everything that looked good (the part that mattered most)
+- **Adversarial critics** whose only job is to break a rule: "produce an input where this destroys
+  real content." Agreeableness = failure. Critics must **run code and quote real inputs/outputs**,
+  not speculate.
+- **Held-out validation**: the development data the authors could see is in-sample by definition.
+  We scored everything again on a 3.4× larger unseen split. **This overturned the headline result**
+  — the "perfect" broad-coverage winner (0.00% violations in-sample) crossed the disqualification
+  bar on fresh data (0.93%), while the narrow evidence-demanding rule survived (0.18%).
+- **Domain validation**: rules built on an outside corpus were re-tested on OUR OWN data before
+  being believed. This caught a total transfer failure the corpus could never show (69% of trigger
+  words that are disfluency markers in the corpus are ordinary words in real dictation).
+- **The lead re-verifies critic claims before recording them.** One critic's claim was partially
+  wrong; verification corrected it.
+
+### 5. Maintained the shared memory (the anti-retesting document you asked about)
+- **A RULE-ATTEMPTS LEDGER**: every attempt — success, failure, or discovery — recorded with its
+  measured result and a **class-level lesson** ("left-scanning heuristics fail BECAUSE they are
+  blind to the correction on the right"), not just the instance.
+- Every new round of agents **reads the ledger first** and must propose net-new mechanisms or fix a
+  recorded failure mode. Re-proposals of ledgered dead ends are auto-rejected.
+- Three rules keep the ledger honest:
+  1. **Curated from measured results only** — never from a model's own post-mortem (a wrong
+     self-diagnosis would be inherited by every future round).
+  2. **"X failed BECAUSE Y"**, never "don't touch X" — because sometimes the fix is a close cousin
+     of the failure (our best mechanism was a cousin of the worst one).
+  3. **Single curator.** Multiple writers corrupt shared memory.
+
+### 6. Kept the human at the gates, not in the loop
+The user ruled on: the goal + fidelity policy (5 calibration questions), go/no-go gates between
+phases, scope changes, and final ship decisions. Roughly **five decisions** across a campaign that
+ran hundreds of experiments. Everything else — proposing, testing, attacking, recording — ran
+autonomously under standing law.
+
+---
+
+## What worked (keep these)
+
+| Practice | Why it earned its place |
+|---|---|
+| **Code judges, models propose** | Every result is reproducible; no debate about whether a rule "seems good" |
+| **Executable proposals only** | Killed the plausible-but-wrong failure mode at the door |
+| **ABSTAIN as first-class** | Rules compete on precision; safety is structural, not behavioral |
+| **Harness self-test before use** | Caught 2 judge defects that would have invalidated everything downstream |
+| **Held-out split** | Overturned the headline winner — the single highest-value check in the campaign |
+| **Own-domain validation** | Caught a 100% transfer failure that corpus numbers could never reveal |
+| **Adversarial critics with run-code obligation** | Found a fatal punctuation-dependent bypass, case-dependence, and a root cause the lead had missed |
+| **The failure ledger** | Later agents demonstrably built on lessons instead of re-deriving them |
+| **Forced angle diversity** | The 6 proposals were genuinely different mechanisms, not paraphrases |
+| **Workflow orchestration (pipeline, not barrier)** | ~12 agents, critiques starting as proposals landed; survived a session-limit crash and resumed from cache |
+| **Reading audits (human-readable spot checks) before any verdict** | Metrics lied repeatedly: a "perfect" score hid punctuation corruption; an inflated failure count was a tokenization artifact |
+| **Splitting metrics by difficulty** | The old rule looked 2× better than it was because half the test cases were trivially easy — the split exposed it |
+
+## What didn't work / traps we fell into (avoid these)
+
+| Trap | What happened | The rule that prevents it |
+|---|---|---|
+| **In-sample optimism** | Two rules scored 0.00% violations on data their authors could read, then failed fresh data | Nothing is believed until scored on data no author has seen |
+| **The oracle input** | Our test harness silently handed every rule a guaranteed-valid trigger; production has no such oracle | Ask of every harness: "what does production NOT know that this test provides?" |
+| **Synthetic probes** | A latency probe on a short fixed input under-measured real cost by 3× | Measure with real inputs at real sizes before believing a budget |
+| **Threshold tuning = curve fitting** | An author swept a cap until failures vanished and called it "load-bearing"; failures were simply monotone in the cap — he'd found the edge of the dataset, not the mechanism | Any threshold tuned until dev-set failures vanish is a fit to that set |
+| **Corpus convenience** | The outside corpus made trigger-detection free by construction, hiding that it's the actual hard problem in our domain | List what the corpus gives you for free; assume each freebie is a landmine |
+| **Metrics blind spots** | Case-insensitive and punctuation-stripping metrics hid real damage three separate times | Every metric must be paired with a reading audit; add a strict variant of any lossy metric |
+| **Median over mixed populations** | "~1.2s median" hid that long inputs took 11.5s — the median was dominated by easy short cases | Always report per-population numbers when the population is bimodal |
+| **Contract loopholes** | One agent returned "do nothing" instead of ABSTAIN, inflating its coverage stat | Validate contract compliance mechanically, not by trust |
+
+---
+
+## The reusable checklist (start a new project here)
+
+1. **Define correctness with the user**: build a small gold set; have the user calibrate it on a
+   sample; freeze it; adversarially audit it. Write the non-negotiable law (our "never destroy
+   content") explicitly.
+2. **Build the judge**: contract with ABSTAIN + automated harness + disqualifying metric +
+   **self-test the judge before trusting it**.
+3. **Reserve held-out data now** — before any author sees anything. Also reserve a final
+   certification set that is touched exactly once, at the very end.
+4. **Seed the failure ledger** with anything already known.
+5. **Fan out proposers** (workflow): forced angles, two tracks, executable-only, pipelined critics.
+6. **Judge**: harness → held-out → own-domain → reading audit. Lead verifies critic claims.
+7. **Curate the ledger** (single curator, measured results only, class-level lessons).
+8. **Repeat until dry** (two rounds with no survivors), then bring the user the leaderboard AND the
+   graveyard.
+9. **User gates**: policy calibration, phase go/no-go, ship/shelve. Nothing else needs them.
+
+---
+
+## The honest bottom line from our run
+
+The loop *worked* — but note what "worked" means: **its biggest wins were catching its own errors.**
+Round 1 produced two rules that looked perfect and a composed winner; held-out testing disqualified
+the winner; adversarial critique found a fatal bypass in the runner-up; domain validation blocked
+even the survivor from shipping; and the convergent conclusion (three independent lines of evidence
+pointing at the same upstream problem) redirected the whole effort at the *right* question. A naive
+version of this campaign would have shipped a broken rule with a perfect-looking scorecard at every
+one of those steps. The method's value is not that it produces winners faster — it's that it makes
+being wrong *loud* while letting the human stay out of the room until a decision is genuinely theirs.
