@@ -48,7 +48,7 @@
     <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
   </g>
   <g>
-    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">3</text>
+    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">4</text>
     <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
   </g>
   <g>
