@@ -48,11 +48,11 @@
     <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
   </g>
   <g>
-    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">4</text>
+    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">3</text>
     <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
   </g>
   <g>
-    <text id="val-closed" x="744" y="39" class="stat-val" text-anchor="middle">7</text>
+    <text id="val-closed" x="744" y="39" class="stat-val" text-anchor="middle">8</text>
     <text x="744" y="55" class="stat-label" text-anchor="middle">closed</text>
   </g>
 
