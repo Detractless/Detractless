@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="200" viewBox="0 0 854 200" fill="none">
+  <defs>
+    <clipPath id="top-card-clip-collab">
+      <path d="M1 14 C1 6.82 6.82 1 14 1 L840 1 C847.18 1 853 6.82 853 14 L853 200 L1 200 Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#top-card-clip-collab)">
+    <rect x="0.5" y="0.5" width="853" height="199.5" fill="#e4e4e2" stroke="#d7d7d4" stroke-width="1"/>
+
+    <text x="30" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22px" font-weight="650" letter-spacing="-0.6px" fill="#191919">
+      Collaborators &amp; Builders
+    </text>
+    <text x="824" y="39" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10px" font-weight="400" fill="#747470">
+      The links below are clickable
+    </text>
+
+    <g>
+      <rect x="107" y="135" width="200" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="207" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Attention-Respecting UI
+      </text>
+    </g>
+    <g>
+      <rect x="327" y="135" width="200" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="427" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Tamper-Resistant Systems
+      </text>
+    </g>
+    <g>
+      <rect x="547" y="135" width="200" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="647" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Local Cognitive Tools
+      </text>
+    </g>
+  </g>
+</svg>
