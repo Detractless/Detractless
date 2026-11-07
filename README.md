@@ -10,7 +10,7 @@ I design and build software centered around how the brain actually functions:
 
 * **Relieving Mental Pressure:** Computers should match human cognitive bandwidth, accelerating meaningful work without overwhelming working memory.
 * **Defeating Willpower Depletion:** Willpower is finite. Instead of expecting people to fight addictive algorithms with pure self-control, I build reliable, tamper-resistant commitment systems for reading, training, digital boundaries, and daily habits.
-* **Frictionless Exit:** Creating software that makes stepping away from screens and digital noise as effortless as entering them, allowing people to finally *Leko* the struggle, and *Atlas*t reclaim their focus.
+* **Frictionless Exit:** Creating software that makes stepping away from screens and digital noise as effortless as entering them, allowing people to finally *Leko* the struggle, and [*Atlas*t](https://github.com/Detractless/Atlas-for-Vivaldi) reclaim their focus.
 
 I study **Software Development and Psychology** at Kennesaw State University to ensure my systems are both technically robust and psychologically grounded.
 
