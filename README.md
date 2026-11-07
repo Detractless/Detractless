@@ -1,6 +1,5 @@
 <div align="center"><img width="100%" src="./assets/header.svg" alt="header"/><a href="#for-employers"><img width="100%" src="./assets/employer-button.svg" alt="Click for Employer Section"/></a></div>
 
-# Christian Darby-Ward (`@Detractless`)
 > "Building software that aligns with human cognition, lowers mental pressure, and protects human agency in a hyper-connected world."
 
 ---
