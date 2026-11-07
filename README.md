@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" align="top" src="./assets/header.svg" alt="header"/><a href="#for-employers"><img width="50%" align="top" src="./assets/btn-employers.svg" alt="For Employers &amp; Teams"/></a><a href="#what-im-looking-for"><img width="50%" align="top" src="./assets/btn-collaborators.svg" alt="For Collaborators &amp; Builders"/></a></p>
+<p align="center"><img width="100%" align="top" src="./assets/header.svg" alt="header"/><a href="./EMPLOYERS.md"><img width="50%" align="top" src="./assets/btn-employers.svg" alt="For Employers &amp; Teams"/></a><a href="#collaborators-and-builders"><img width="50%" align="top" src="./assets/btn-collaborators.svg" alt="For Collaborators &amp; Builders"/></a></p>
 
 ---
 
@@ -16,35 +16,12 @@ I study **Software Development and Psychology** at Kennesaw State University to 
 
 ---
 
-## For Employers: Value & Engineering Mindset
+## Collaborators and Builders
 
-Rather than simply writing code, I focus on building efficient, secure, and resilient systems. Here is what I bring to an engineering team:
+I am actively looking to connect with builders, designers, and thinkers who share a similar philosophy toward intentional computing:
 
-### 1. Active Rigor in an AI-Accelerated Era
-With generative tools writing a high volume of modern code, too many developers take a passive back seat: leading to hallucinations, security vulnerabilities, and bloated architectures.
-* **My approach:** I use AI as an accelerator, but never as a substitute for deep systems comprehension.
-* Having built low-level Windows utilities and tamper-resistant mechanics in C#, I inspect what sits under the hood: verifying memory boundaries, auditing dependencies, and ensuring code is secure and deterministic before it ever reaches production.
-
-### 2. Practical, High-Efficiency On-Device ML
-Cloud API calls introduce recurring costs, latency bottlenecks, and data privacy concerns.
-* When tasks require intelligence, I explore task-specific, on-device small language models (SLMs).
-* By fine-tuning compact architectures locally, I help teams build features that are faster, cost zero tokens to query, and keep sensitive company and user data entirely private.
-
-### 3. Polyglot Adaptability
-* **Core:** C#/.NET, Windows system APIs, and desktop architecture.
-* **ML & Scripting:** Python for data pipelines, model evaluation, and fine-tuning.
-* **Web & Runtime:** Modern JavaScript and TypeScript for browser internals and responsive tools.
-* **Mindset:** I select the tool that best fits the hardware and cognitive constraints of the problem, rather than forcing everything into one language.
-
-### Target Roles
-I am actively seeking **Software Engineering Internships, Junior Developer positions, or contract engineering roles** where I can contribute my discipline, solve hard infrastructure or application challenges, and learn from experienced engineers.
-
----
-
-## What I'm Looking For
-
-1. **Software Engineering Opportunities:** A team and environment where I can contribute my solid technical foundation, solve challenging problems, and continuously expand my craft alongside experienced builders.
-2. **Kindred Spirits & Collaborators:** People who share a similar vision for the future of computing: builders, designers, and thinkers who want to create technology that respects attention and empowers human agency.
+* **Kindred Spirits & Builders:** People who want to build commitment devices, ergonomic workflows, and interfaces that actively respect human attention and cognitive limits.
+* **Open Collaboration:** Whether you are working on distraction-blocking utilities, local/on-device AI tooling, or cognitive research, reach out.
 
 ---
 
