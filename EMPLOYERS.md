@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" align="top" src="./assets/header-employers.svg" alt="Technical Scope &amp; Engineering Value"/><a href="./README.md"><img width="100%" align="top" src="./assets/btn-back.svg" alt="Back to Profile &amp; Mission"/></a></p>
+<p align="center"><img width="100%" align="top" src="./assets/header-employers.svg" alt="Technical Scope &amp; Engineering Value"/><a href="https://github.com/Detractless"><img width="100%" align="top" src="./assets/btn-back.svg" alt="Back to Profile"/></a></p>
 
 # Engineering Mindset & Value for Employers
 
@@ -42,4 +42,4 @@ I am actively seeking **Software Engineering Internships, Junior Developer posit
 * **GitHub:** [@Detractless](https://github.com/Detractless)
 * **Resume:** To be added
 
-<p align="center"><a href="./README.md"><img width="100%" src="./assets/footer.svg" alt="footer"/></a></p>
+<p align="center"><a href="https://github.com/Detractless"><img width="100%" src="./assets/footer.svg" alt="footer"/></a></p>
