@@ -1,47 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="180" viewBox="0 0 854 180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="210" viewBox="0 0 854 210" fill="none">
   <defs>
     <clipPath id="top-card-clip-emp">
-      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 180 L0 180 Z"/>
+      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 210 L0 210 Z"/>
     </clipPath>
-    <filter id="h-lift-emp" x="-10%" y="-15%" width="120%" height="135%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.04"/>
-    </filter>
   </defs>
   <g clip-path="url(#top-card-clip-emp)">
-    <rect width="854" height="180" fill="#dedede"/>
+    <rect width="854" height="210" fill="#e4e4e2"/>
 
-    <!-- Subtle Top-Left Notice (Out of focus, static) -->
-    <text x="24" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9px" font-weight="500" fill="#666666" letter-spacing="0.25px">
-      Notice: The bottom buttons are interactive
+    <text x="30" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22px" font-weight="600" letter-spacing="-0.5px" fill="#191919">
+      Employment Value
+    </text>
+    <text x="824" y="39" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10px" font-weight="400" fill="#747470">
+      The links below are clickable
     </text>
 
-    <!-- Centered Circle -->
-    <circle cx="427" cy="47" r="18" stroke="#111111" stroke-width="4" fill="none"/>
-
-    <!-- Centered EMPLOYMENT VALUE Title -->
-    <g transform="translate(427, 98)" text-anchor="middle">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="700" letter-spacing="3px" fill="#111111">
-        EMPLOYMENT VALUE
-      </text>
-      <text y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5px" font-weight="400" fill="#555555" letter-spacing="0.2px">
-        Listed below are the direct strengths and advantages of hiring me.
+    <g>
+      <rect x="107" y="135" width="190" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="202" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Fast Learner &amp; Adaptable
       </text>
     </g>
-
-    <!-- 3 Concrete Value Pillars -->
-    <g transform="translate(107, 138)">
-      <g transform="translate(0, 0)">
-        <rect width="190" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-emp)"/>
-        <text x="95" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="600" fill="#222222">Fast Learner &amp; Adaptable</text>
-      </g>
-      <g transform="translate(210, 0)">
-        <rect width="210" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-emp)"/>
-        <text x="105" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="600" fill="#222222">Client &amp; User Satisfaction</text>
-      </g>
-      <g transform="translate(440, 0)">
-        <rect width="200" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-emp)"/>
-        <text x="100" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="600" fill="#222222">Reliable Feature Delivery</text>
-      </g>
+    <g>
+      <rect x="317" y="135" width="210" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="422" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Client &amp; User Satisfaction
+      </text>
+    </g>
+    <g>
+      <rect x="547" y="135" width="200" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+      <text x="647" y="153" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="400" fill="#626260">
+        Reliable Feature Delivery
+      </text>
     </g>
   </g>
 </svg>
