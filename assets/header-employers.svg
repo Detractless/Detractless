@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="210" viewBox="0 0 854 210" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="200" viewBox="0 0 854 200" fill="none">
   <defs>
     <clipPath id="top-card-clip-emp">
-      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 210 L0 210 Z"/>
+      <path d="M1 14 C1 6.82 6.82 1 14 1 L840 1 C847.18 1 853 6.82 853 14 L853 200 L1 200 Z"/>
     </clipPath>
   </defs>
   <g clip-path="url(#top-card-clip-emp)">
-    <rect width="854" height="210" fill="#e4e4e2"/>
+    <rect x="0.5" y="0.5" width="853" height="199.5" fill="#e4e4e2" stroke="#d7d7d4" stroke-width="1"/>
 
-    <text x="30" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22px" font-weight="600" letter-spacing="-0.5px" fill="#191919">
+    <text x="30" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22px" font-weight="650" letter-spacing="-0.6px" fill="#191919">
       Employment Value
     </text>
     <text x="824" y="39" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10px" font-weight="400" fill="#747470">

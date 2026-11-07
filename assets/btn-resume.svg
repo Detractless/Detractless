@@ -1,17 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="427" height="36" viewBox="0 -4 427 36" fill="none">
-  <!-- Gray bleed upward to seamlessly seal against header-employers.svg -->
-  <rect x="0" y="-4" width="427" height="5" fill="#dedede"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="36" viewBox="0 0 427 36" fill="none">
   <defs>
     <clipPath id="btn-resume-clip">
-      <path d="M0 0 L427 0 C427 0 427 18 427 18 C427 25.73 420.73 32 413 32 L0 32 Z"/>
+      <path d="M0 0 L426 0 L426 22 C426 29.73 419.73 36 412 36 L0 36 Z"/>
     </clipPath>
   </defs>
   <g clip-path="url(#btn-resume-clip)">
-    <rect width="427" height="32" fill="#f3f3f1"/>
+    <rect x="0" y="0" width="426.5" height="35.5" fill="#e4e4e2" stroke="#d7d7d4" stroke-width="1"/>
     <line x1="0" y1="0" x2="427" y2="0" stroke="#d3d3d0" stroke-width="1"/>
-    <g transform="translate(385, 20)" text-anchor="end">
+    <g transform="translate(385, 22)" text-anchor="end">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#565653">
-        View Resume →
+        View Resume &#x2197;
       </text>
     </g>
   </g>
