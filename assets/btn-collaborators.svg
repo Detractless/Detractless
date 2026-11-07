@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="427" height="32" viewBox="0 0 427 32" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="36" viewBox="0 -4 427 36" fill="none">
+  <!-- Gray bleed upward to seamlessly seal against header.svg -->
+  <rect x="0" y="-4" width="427" height="5" fill="#dedede"/>
   <defs>
     <clipPath id="btn-right-clip">
       <path d="M0 0 L427 0 C427 0 427 18 427 18 C427 25.73 420.73 32 413 32 L0 32 Z"/>
