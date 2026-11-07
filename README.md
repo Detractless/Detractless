@@ -1,4 +1,4 @@
-<div align="center"><img width="100%" align="bottom" src="./assets/header.svg" alt="header"/><a href="#for-employers"><img width="100%" align="top" src="./assets/employer-button.svg" alt="Click for Employer Section"/></a></div>
+<div align="center"><img width="100%" align="bottom" src="./assets/header.svg" alt="header"/><a href="#for-employers"><img width="50%" align="top" src="./assets/btn-employers.svg" alt="For Employers &amp; Teams"/></a><a href="#what-im-looking-for"><img width="50%" align="top" src="./assets/btn-collaborators.svg" alt="For Collaborators &amp; Builders"/></a></div>
 
 ---
 
