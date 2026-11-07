@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="854" height="160" viewBox="0 0 854 160" fill="none">
   <defs>
     <clipPath id="top-card-clip">
-      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 160 L0 160 Z"/>
+      <path d="M0 0 L854 0 L854 160 L0 160 Z"/>
     </clipPath>
     <filter id="h-lift-conn" x="-10%" y="-15%" width="120%" height="135%">
       <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.04"/>
