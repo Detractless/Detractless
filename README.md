@@ -31,6 +31,7 @@ I am actively looking to connect with builders, designers, and thinkers who shar
 
 ## Connect
 
+* **Email:** [christiandarbyward@gmail.com](mailto:christiandarbyward@gmail.com)
 * **GitHub:** [@Detractless](https://github.com/Detractless)
 * **Resume:** To be added
 

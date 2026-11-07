@@ -41,6 +41,7 @@ I am actively seeking **Software Engineering Internships, Junior Developer posit
 
 ## Connect & Inquiries
 
+* **Email:** [christiandarbyward@gmail.com](mailto:christiandarbyward@gmail.com)
 * **GitHub:** [@Detractless](https://github.com/Detractless)
 * **Resume:** To be added
 
