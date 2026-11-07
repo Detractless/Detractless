@@ -14,9 +14,9 @@ Modern computing often introduces cognitive fatigue, notification overload, and 
 
 ## Core Focus Areas
 
-* **Digital Minimalism & Calm UI:** Exploring clean software design, cognitive load minimization, and user interfaces that leave working memory unburdened.
-* **Deep Work & Commitment Tools:** Building systems that treat willpower as finite: verifiable boundaries, intentional gates, and tools designed to make deep work default.
-* **Local-First & Private Intelligence:** Experimenting with on-device models and lightweight local tools that assist thinking without subscription overhead, privacy leaks, or cloud reliance.
+* **Digital Minimalism:** Exploring clean software design, cognitive load minimization, and user interfaces that leave working memory unburdened.
+* **Focus & Habits:** Building systems that treat willpower as finite: verifiable boundaries, intentional gates, and tools designed to make deep work default.
+* **On-Device AI:** Experimenting with local, task-specific models that assist thinking without subscription overhead, privacy leaks, or external API reliance.
 * **Open Collaboration:** If you are researching, designing, or engineering around cognitive friction and digital agency, feel free to reach out or open a discussion.
 
 ---
