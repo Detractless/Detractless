@@ -1,8 +1,6 @@
-<div align="center"><img width="100%" src="./assets/header.svg" alt="header"/></div>
+<p align="center"><img width="100%" align="top" src="./assets/header-employers.svg" alt="Technical Scope &amp; Engineering Value"/><a href="./README.md"><img width="100%" align="top" src="./assets/btn-back.svg" alt="Back to Profile &amp; Mission"/></a></p>
 
 # Engineering Mindset & Value for Employers
-
-[← Back to Main Profile](./README.md)
 
 ---
 
@@ -44,4 +42,4 @@ I am actively seeking **Software Engineering Internships, Junior Developer posit
 * **GitHub:** [@Detractless](https://github.com/Detractless)
 * **Resume:** To be added
 
-<div align="center"><a href="./README.md">← Return to Profile</a></div>
+<p align="center"><a href="./README.md"><img width="100%" src="./assets/footer.svg" alt="footer"/></a></p>

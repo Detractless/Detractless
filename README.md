@@ -16,12 +16,16 @@ I study **Software Development and Psychology** at Kennesaw State University to 
 
 ---
 
+<a id="collaborators-and-builders"></a>
+
 ## Collaborators and Builders
 
 I am actively looking to connect with builders, designers, and thinkers who share a similar philosophy toward intentional computing:
 
-* **Kindred Spirits & Builders:** People who want to build commitment devices, ergonomic workflows, and interfaces that actively respect human attention and cognitive limits.
-* **Open Collaboration:** Whether you are working on distraction-blocking utilities, local/on-device AI tooling, or cognitive research, reach out.
+* **Attention-Respecting Interfaces:** Exploring clean software design, cognitive load minimization, and user interfaces that leave working memory unburdened.
+* **Tamper-Resistant Habit & Commitment Systems:** Building systems that treat willpower as finite: verifiable boundaries, intentional gates, and tools designed to make deep work default.
+* **Local & On-Device Cognitive Tools:** Experimenting with local, task-specific models that assist thinking without subscription overhead, privacy leaks, or external API reliance.
+* **Open Collaboration:** If you are researching, designing, or engineering around cognitive friction and digital agency, feel free to reach out or open a discussion.
 
 ---
 
