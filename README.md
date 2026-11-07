@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" align="top" src="./assets/banner-ticker.svg" alt="Notice"/><br/><img width="100%" align="top" src="./assets/header.svg" alt="header"/><a href="#collaborators-and-builders"><img width="50%" align="top" src="./assets/btn-collaborators.svg" alt="For Collaborators &amp; Builders"/></a><a href="./EMPLOYERS.md"><img width="50%" align="top" src="./assets/btn-employers.svg" alt="For Employers &amp; Teams"/></a></p>
+<p align="center"><img width="100%" align="top" src="./assets/banner-ticker.svg" alt="Notice"/><img width="100%" align="top" src="./assets/header.svg" alt="header"/><a href="#collaborators-and-builders"><img width="50%" align="top" src="./assets/btn-collaborators.svg" alt="For Collaborators &amp; Builders"/></a><a href="./EMPLOYERS.md"><img width="50%" align="top" src="./assets/btn-employers.svg" alt="For Employers &amp; Teams"/></a></p>
 
 ---
 

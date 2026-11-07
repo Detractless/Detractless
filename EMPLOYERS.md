@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" align="top" src="./assets/banner-ticker.svg" alt="Notice"/><br/><img width="100%" align="top" src="./assets/header-employers.svg" alt="Employment Value"/><a href="https://github.com/Detractless"><img width="50%" align="top" src="./assets/btn-back.svg" alt="Back to Profile"/></a><a href="#connect--inquiries"><img width="50%" align="top" src="./assets/btn-resume.svg" alt="View Resume"/></a></p>
+<p align="center"><img width="100%" align="top" src="./assets/banner-ticker.svg" alt="Notice"/><img width="100%" align="top" src="./assets/header-employers.svg" alt="Employment Value"/><a href="https://github.com/Detractless"><img width="50%" align="top" src="./assets/btn-back.svg" alt="Back to Profile"/></a><a href="#connect--inquiries"><img width="50%" align="top" src="./assets/btn-resume.svg" alt="View Resume"/></a></p>
 
 # Engineering Mindset & Value for Employers
 
