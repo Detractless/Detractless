@@ -1,59 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="180" viewBox="0 0 854 180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="210" viewBox="0 0 854 210" fill="none">
   <defs>
     <clipPath id="top-card-clip">
-      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 180 L0 180 Z"/>
+      <path d="M0 14 C0 6.27 6.27 0 14 0 L840 0 C847.73 0 854 6.27 854 14 L854 210 L0 210 Z"/>
     </clipPath>
-    <filter id="h-lift-conn" x="-10%" y="-15%" width="120%" height="135%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.04"/>
-    </filter>
   </defs>
   <g clip-path="url(#top-card-clip)">
-    <rect width="854" height="180" fill="#dedede"/>
+    <rect width="854" height="210" fill="#e4e4e2"/>
 
-    <!-- Subtle Top-Left Notice (Out of focus, static) -->
-    <text x="24" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9px" font-weight="500" fill="#666666" letter-spacing="0.25px">
-      Notice: The bottom buttons are interactive
+    <text x="30" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22px" font-weight="600" letter-spacing="-0.5px" fill="#191919">
+      Detractless
+    </text>
+    <text x="824" y="39" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10px" font-weight="400" fill="#747470">
+      The links below are clickable
     </text>
 
-    <!-- Centered Circle -->
-    <circle cx="427" cy="47" r="18" stroke="#111111" stroke-width="4" fill="none"/>
-
-    <!-- Centered DETRACTLESS Title -->
-    <g transform="translate(427, 98)" text-anchor="middle">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5px" font-weight="700" letter-spacing="3px" fill="#111111">
-        DETRACTLESS
-      </text>
-      <text y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5px" font-weight="400" fill="#555555" letter-spacing="0.2px">
-        Intentional computing, designed for how the brain actually works.
-      </text>
-    </g>
-
-    <!-- Stats Pills Row (With balanced breathing room and Action-compatible IDs) -->
-    <g transform="translate(53, 138)">
-      <g transform="translate(0, 0)">
-        <rect width="130" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
-        <text id="val-commits" x="46" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="700" fill="#111111">413</text>
-        <text x="50" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#333333">commits</text>
+    <g transform="translate(53, 135)">
+      <g>
+        <rect width="130" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+        <text id="val-commits" x="46" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">413</text>
+        <text x="50" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">commits</text>
       </g>
       <g transform="translate(150, 0)">
-        <rect width="106" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
-        <text id="val-stars" x="40" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="700" fill="#111111">9</text>
-        <text x="44" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#333333">stars</text>
+        <rect width="106" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+        <text id="val-stars" x="40" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">9</text>
+        <text x="44" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">stars</text>
       </g>
       <g transform="translate(276, 0)">
-        <rect width="110" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
-        <text id="val-repos" x="40" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="700" fill="#111111">4</text>
-        <text x="44" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#333333">repos</text>
+        <rect width="110" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+        <text id="val-repos" x="40" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">4</text>
+        <text x="44" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">repos</text>
       </g>
       <g transform="translate(406, 0)">
-        <rect width="156" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
-        <text id="val-open" x="36" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="700" fill="#111111">3</text>
-        <text x="40" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#333333">open issues</text>
+        <rect width="156" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+        <text id="val-open" x="36" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">3</text>
+        <text x="40" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">open issues</text>
       </g>
       <g transform="translate(582, 0)">
-        <rect width="166" height="28" rx="14" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
-        <text id="val-closed" x="36" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="700" fill="#111111">8</text>
-        <text x="40" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="500" fill="#333333">closed issues</text>
+        <rect width="166" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
+        <text id="val-closed" x="36" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">8</text>
+        <text x="40" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">closed issues</text>
       </g>
     </g>
   </g>
