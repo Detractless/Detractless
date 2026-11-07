@@ -6,7 +6,7 @@
 
 Technology has done immense good for the world, but modern computing often works against human psychology: introducing cognitive fatigue, constant distraction, and mental friction. My goal is to tip the scale back in favor of human intentionality.
 
-I design and build software centered around how the brain actually functions:
+In my free time, I design and build software centered around how the brain actually functions:
 
 * **Relieving Mental Pressure:** Computers should match human cognitive bandwidth, accelerating meaningful work without overwhelming working memory.
 * **Defeating Willpower Depletion:** Willpower is finite. Instead of expecting people to fight addictive algorithms with pure self-control, I build reliable, tamper-resistant commitment systems for reading, training, digital boundaries, and daily habits.
