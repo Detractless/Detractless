@@ -2,14 +2,14 @@
   <!-- Gray bleed upward to seamlessly seal against header.svg -->
   <rect x="0" y="-4" width="427" height="5" fill="#dedede"/>
   <defs>
-    <clipPath id="btn-right-clip">
-      <path d="M0 0 L427 0 C427 0 427 18 427 18 C427 25.73 420.73 32 413 32 L0 32 Z"/>
+    <clipPath id="btn-left-clip">
+      <path d="M0 0 L427 0 L427 32 L14 32 C6.27 32 0 25.73 0 18 Z"/>
     </clipPath>
   </defs>
-  <g clip-path="url(#btn-right-clip)">
+  <g clip-path="url(#btn-left-clip)">
     <rect width="427" height="32" fill="#f5f5f5"/>
     <line x1="0" y1="0" x2="427" y2="0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-    <line x1="0.5" y1="0" x2="0.5" y2="32" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+    <line x1="426.5" y1="0" x2="426.5" y2="32" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
     <g transform="translate(213.5, 20)" text-anchor="middle">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="600" fill="#222222" letter-spacing="0.4px">
         ↓ For Collaborators &amp; Builders

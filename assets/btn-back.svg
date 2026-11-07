@@ -1,16 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="36" viewBox="0 -4 854 36" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="427" height="36" viewBox="0 -4 427 36" fill="none">
   <!-- Gray bleed upward to seamlessly seal against header-employers.svg -->
-  <rect x="0" y="-4" width="854" height="5" fill="#dedede"/>
+  <rect x="0" y="-4" width="427" height="5" fill="#dedede"/>
   <defs>
     <clipPath id="btn-back-clip">
-      <path d="M0 0 L854 0 L854 18 C854 25.73 847.73 32 840 32 L14 32 C6.27 32 0 25.73 0 18 Z"/>
+      <path d="M0 0 L427 0 L427 32 L14 32 C6.27 32 0 25.73 0 18 Z"/>
     </clipPath>
   </defs>
   <g clip-path="url(#btn-back-clip)">
-    <rect width="854" height="32" fill="#f5f5f5"/>
-    <line x1="0" y1="0" x2="854" y2="0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
-    <g transform="translate(427, 20)" text-anchor="middle">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="600" fill="#222222" letter-spacing="0.4px">
+    <rect width="427" height="32" fill="#f5f5f5"/>
+    <line x1="0" y1="0" x2="427" y2="0" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+    <line x1="426.5" y1="0" x2="426.5" y2="32" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+    <g transform="translate(213.5, 20)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11px" font-weight="600" fill="#222222" letter-spacing="0.4px">
         ← Back to Profile
       </text>
     </g>
