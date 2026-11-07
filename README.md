@@ -1,81 +1,59 @@
-<!--
-    Hey there, I'm Christian Darby-Ward!
-    Happy to see you here exploring my README code
-    Feel free to inspire!
-    
-    But may I please ask you to follow me in return? Just a click!
-    You may also want to connect with me on LinkedIn @christian-darby-ward
--->
-<img width=100% src="./assets/header.svg" alt="header"/> 
-<!--
-     This is the list of my skills and tools I am studying!
--->
+<div align="center"><img width="100%" src="./assets/header.svg" alt="header"/><a href="#for-employers"><img width="100%" src="./assets/employer-button.svg" alt="Click for Employer Section"/></a></div>
 
-## About Me
+# Christian Darby-Ward (`@Detractless`)
+> "Building software that aligns with human cognition, lowers mental pressure, and protects human agency in a hyper-connected world."
 
-- Windows software developer shipping production tools in C#/.NET, WPF, JavaScript, and PowerShell.
-- Building [CTBL++](https://github.com/Detractless/CTBLplusplus), a community-built open-source Windows add-on for intentional, low-distraction computing.
-- Designing personal productivity tools and minimalist desktop environments.
-- Student at Kennesaw State University studying software development, criminal justice, and psychology.
-- Chess, greasing the groove, and minimalist enthusiast.
+---
 
-### Skill Set
+## The Mission
 
-<table><tr><td valign="top" width="33%">
+Technology has done immense good for the world, but modern computing often works against human psychology: introducing cognitive fatigue, constant distraction, and mental friction. My goal is to tip the scale back in favor of human intentionality.
 
-### Frontend  
-<div align="left">  
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/HTML.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/HTML.svg"/><img src="./assets/icons/HTML.svg" width="48" alt="HTML"/></picture></a>&nbsp;
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/CSS.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/CSS.svg"/><img src="./assets/icons/CSS.svg" width="48" alt="CSS"/></picture></a>&nbsp;
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/JavaScript.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/JavaScript.svg"/><img src="./assets/icons/JavaScript.svg" width="48" alt="JavaScript"/></picture></a>
-</div>
+I design and build software centered around how the brain actually functions:
 
-</td><td valign="top" width="33%">
-        
-### Languages
-<div align="left">
-    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/CS.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/CS.svg"/><img src="./assets/icons/CS.svg" width="48" alt="C#"/></picture></a>&nbsp;
-    <a href="https://dotnet.microsoft.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/DotNet.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/DotNet.svg"/><img src="./assets/icons/DotNet.svg" width="48" alt=".NET"/></picture></a>&nbsp;
-    <a href="https://www.python.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Python-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Python-Light.svg"/><img src="./assets/icons/Python-Light.svg" width="48" alt="Python"/></picture></a>&nbsp;
-    <a href="https://learn.microsoft.com/en-us/powershell/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Powershell-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Powershell-Light.svg"/><img src="./assets/icons/Powershell-Light.svg" width="48" alt="PowerShell"/></picture></a>
-</div>
+* **Relieving Mental Pressure:** Computers should match human cognitive bandwidth, accelerating meaningful work without overwhelming working memory.
+* **Defeating Willpower Depletion:** Willpower is finite. Instead of expecting people to fight addictive algorithms with pure self-control, I build reliable, tamper-resistant commitment systems for reading, training, digital boundaries, and daily habits.
+* **Frictionless Exit:** Creating software that makes stepping away from screens and digital noise as effortless as entering them, allowing people to finally *Leko* the struggle, and *Atlas*t reclaim their focus.
 
-</td><td valign="top" width="33%">
-  
-### Tools
-<div align="left">
-    <a href="https://git-scm.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Git.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Git.svg"/><img src="./assets/icons/Git.svg" width="48" alt="Git"/></picture></a>&nbsp;
-    <a href="https://github.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/Github-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/Github-Light.svg"/><img src="./assets/icons/Github-Light.svg" width="48" alt="GitHub"/></picture></a>&nbsp;
-    <a href="https://nodejs.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/NodeJS-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/NodeJS-Light.svg"/><img src="./assets/icons/NodeJS-Light.svg" width="48" alt="Node.js"/></picture></a>&nbsp;
-    <a href="https://code.visualstudio.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/VSCode-Dark.svg"/><source media="(prefers-color-scheme: light)" srcset="./assets/icons/VSCode-Light.svg"/><img src="./assets/icons/VSCode-Light.svg" width="48" alt="VS Code"/></picture></a>
-</div>
+I study **Software Development and Psychology** at Kennesaw State University to ensure my systems are both technically robust and psychologically grounded.
 
-</td></tr></table>
+---
 
-### Featured Projects
+## For Employers: Value & Engineering Mindset
 
-**[CTBL++](https://github.com/Detractless/CTBLplusplus)** — Cold Turkey Blocker Plus Plus, a community-built open-source Windows add-on featuring a C#/.NET Engine, dual watchdogs, WPF/WebView2 UI, and tamper-resistant queued delay mechanics. Designed to help users build intentional, low-distraction computing environments.
+Rather than simply writing code, I focus on building efficient, secure, and resilient systems. Here is what I bring to an engineering team:
 
-### Connect with me!
+### 1. Active Rigor in an AI-Accelerated Era
+With generative tools writing a high volume of modern code, too many developers take a passive back seat: leading to hallucinations, security vulnerabilities, and bloated architectures.
+* **My approach:** I use AI as an accelerator, but never as a substitute for deep systems comprehension.
+* Having built low-level Windows utilities and tamper-resistant mechanics in C#, I inspect what sits under the hood: verifying memory boundaries, auditing dependencies, and ensuring code is secure and deterministic before it ever reaches production.
 
-[![LinkedIn](./assets/badges/linkedin.svg)](https://www.linkedin.com/in/christian-darby-ward/)
-[![Dev.to](./assets/badges/devto.svg)](https://dev.to/christian-darby-ward)
-[![Medium](./assets/badges/medium.svg)](https://medium.com/@christian-darby-ward)
-<!--
-     Oh, hello there, recruiters!
--->
+### 2. Practical, High-Efficiency On-Device ML
+Cloud API calls introduce recurring costs, latency bottlenecks, and data privacy concerns.
+* When tasks require intelligence, I explore task-specific, on-device small language models (SLMs).
+* By fine-tuning compact architectures locally, I help teams build features that are faster, cost zero tokens to query, and keep sensitive company and user data entirely private.
 
-### Employer?
+### 3. Polyglot Adaptability
+* **Core:** C#/.NET, Windows system APIs, and desktop architecture.
+* **ML & Scripting:** Python for data pipelines, model evaluation, and fine-tuning.
+* **Web & Runtime:** Modern JavaScript and TypeScript for browser internals and responsive tools.
+* **Mindset:** I select the tool that best fits the hardware and cognitive constraints of the problem, rather than forcing everything into one language.
 
+### Target Roles
+I am actively seeking **Software Engineering Internships, Junior Developer positions, or contract engineering roles** where I can contribute my discipline, solve hard infrastructure or application challenges, and learn from experienced engineers.
 
-> [!IMPORTANT]  
-> <a href="https://docs.google.com/document/d/1QXdqY5nCZONamhFpsfpsnDDMZlCxpNB-/export?format=pdf">Download my resume</a>
+---
 
-> Open to internships, freelance/gig work, and entry-level opportunities in software development, or criminal justice.
+## What I'm Looking For
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=Detractless&label=Profile%20views&color=CC0000&style=flat-square" alt="Error fetching profile views"/></p>
+1. **Software Engineering Opportunities:** A team and environment where I can contribute my solid technical foundation, solve challenging problems, and continuously expand my craft alongside experienced builders.
+2. **Kindred Spirits & Collaborators:** People who share a similar vision for the future of computing: builders, designers, and thinkers who want to create technology that respects attention and empowers human agency.
 
-<img width=100% src="./assets/footer.svg" alt="footer"/>
-<!--
-     Thanks for being my guest ♥
--->
+---
+
+## Connect
+
+* **GitHub:** [@Detractless](https://github.com/Detractless)
+* **Resume:** To be added
+
+<img width="100%" src="./assets/footer.svg" alt="footer"/>

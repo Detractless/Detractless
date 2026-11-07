@@ -1,97 +1,67 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="854"
-  height="140"
-  viewBox="0 0 854 140"
-  fill="none"
->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="195" viewBox="0 0 854 195" fill="none">
+  <defs>
+    <clipPath id="top-card-clip">
+      <path d="M0 16 C0 7.16 7.16 0 16 0 L838 0 C846.84 0 854 7.16 854 16 L854 195 L0 195 Z"/>
+    </clipPath>
+    <filter id="h-lift-conn" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.04"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#top-card-clip)">
+    <rect width="854" height="195" fill="#dedede"/>
 
-    /* ── STATS ───────────────────────────────────── */
-    .stat-label { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; fill: #8b949e; }
-    .stat-val   { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 13px; font-weight: 600; fill: #e6edf3; }
-    .stat-lang  { font-family: ui-monospace,SFMono-Regular,Menlo,'Courier New',monospace; font-size: 9px; font-weight: 600; fill: #f78166; }
+    <!-- Top Right: Warning Badge with breathing room -->
+    <g transform="translate(646, 16)">
+      <rect width="180" height="26" rx="13" fill="#fdf8e8" stroke="#d4a72c" stroke-width="1"/>
+      <path d="M15 18.5 L20.5 8.5 L26 18.5 Z" fill="#eac54f" stroke="#b88d18" stroke-width="1" stroke-linejoin="round"/>
+      <line x1="20.5" y1="12" x2="20.5" y2="15" stroke="#4a3b00" stroke-width="1.2" stroke-linecap="round"/>
+      <circle cx="20.5" cy="17" r="0.6" fill="#4a3b00"/>
+      <text x="34" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5px" font-weight="600" fill="#6e5400" letter-spacing="0.2px">
+        Repo under construction
+      </text>
+    </g>
 
-    /* ── TYPING ──────────────────────────────────── */
-    .typed { font-family: 'Caveat', cursive; font-size: 30px; font-weight: 700; }
-    .line1 { fill: #C5C6C8; }
-    .line2 { fill: #FFFFFF; }
-    .line3 { fill: #FDBB30; }
-  </style>
+    <!-- Centered Circle -->
+    <circle cx="427" cy="52" r="36" stroke="#111111" stroke-width="6.5" fill="none"/>
 
-  <!-- ═══ BACKGROUND ════════════════════════════════ -->
-  <rect width="854" height="140" fill="#0d1117" />
+    <!-- Compact Identity -->
+    <g transform="translate(427, 114)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5px" font-weight="600" letter-spacing="2.5px" fill="#111111">
+        DETRACTLESS
+        <tspan font-weight="400" fill="#666666" letter-spacing="0.5px"> // Christian Darby-Ward</tspan>
+      </text>
+      <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5px" font-weight="400" fill="#555555">
+        Intentional computing, designed for how the brain actually works.
+      </text>
+    </g>
 
-  <!-- ═══ TOP DOTTED LINE ═══════════════════════════ -->
-  <line x1="0" y1="20" x2="854" y2="20"
-        stroke="#e6edf3" stroke-width="2" opacity="0.2"
-        stroke-linecap="round" stroke-dasharray="10 10" />
-
-  <!-- ═══ STATS ROW ══════════════════════════════════ -->
-  <g>
-    <rect x="67" y="30" width="110" height="16" rx="8" fill="#f7816622" stroke="#f78166" stroke-width="1"/>
-    <text id="val-lang" x="122" y="38" dy="0.35em" class="stat-lang" text-anchor="middle">JavaScript</text>
-    <text x="122" y="55"  class="stat-label" text-anchor="middle">top lang</text>
+    <!-- Stats Pills Row (Monochrome + Action Compatible) -->
+    <g transform="translate(52, 148)">
+      <g transform="translate(0, 0)">
+        <rect width="136" height="32" rx="16" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
+        <text id="val-commits" x="48" y="20" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" fill="#111111">413</text>
+        <text x="52" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="500" fill="#333333">commits</text>
+      </g>
+      <g transform="translate(148, 0)">
+        <rect width="112" height="32" rx="16" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
+        <text id="val-stars" x="42" y="20" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" fill="#111111">9</text>
+        <text x="46" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="500" fill="#333333">stars</text>
+      </g>
+      <g transform="translate(272, 0)">
+        <rect width="116" height="32" rx="16" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
+        <text id="val-repos" x="42" y="20" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" fill="#111111">27</text>
+        <text x="46" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="500" fill="#333333">repos</text>
+      </g>
+      <g transform="translate(400, 0)">
+        <rect width="164" height="32" rx="16" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
+        <text id="val-open" x="38" y="20" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" fill="#111111">3</text>
+        <text x="42" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="500" fill="#333333">open issues</text>
+      </g>
+      <g transform="translate(576, 0)">
+        <rect width="174" height="32" rx="16" fill="#f5f5f5" stroke="rgba(0,0,0,0.08)" stroke-width="1" filter="url(#h-lift-conn)"/>
+        <text id="val-closed" x="38" y="20" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="700" fill="#111111">9</text>
+        <text x="42" y="20" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12px" font-weight="500" fill="#333333">closed issues</text>
+      </g>
+    </g>
   </g>
-  <g>
-    <text id="val-commits" x="268" y="39" class="stat-val" text-anchor="middle">412</text>
-    <text x="268" y="55" class="stat-label" text-anchor="middle">commits</text>
-  </g>
-  <g>
-    <text id="val-stars" x="390" y="39" class="stat-val" text-anchor="middle">9</text>
-    <text x="390" y="55" class="stat-label" text-anchor="middle">stars</text>
-  </g>
-  <g>
-    <text id="val-repos" x="500" y="39" class="stat-val" text-anchor="middle">4</text>
-    <text x="500" y="55" class="stat-label" text-anchor="middle">repos</text>
-  </g>
-  <g>
-    <text id="val-open" x="622" y="39" class="stat-val" text-anchor="middle">3</text>
-    <text x="622" y="55" class="stat-label" text-anchor="middle">open</text>
-  </g>
-  <g>
-    <text id="val-closed" x="744" y="39" class="stat-val" text-anchor="middle">8</text>
-    <text x="744" y="55" class="stat-label" text-anchor="middle">closed</text>
-  </g>
-
-  <!-- ═══ BOTTOM DOTTED LINE ════════════════════════ -->
-  <line x1="0" y1="67" x2="854" y2="67"
-        stroke="#e6edf3" stroke-width="2" opacity="0.2"
-        stroke-linecap="round" stroke-dasharray="10 10" />
-
-  <!-- ═══ TYPING ANIMATION ══════════════════════════ -->
-  <g transform="translate(20, 72)">
-    <path id="tp0">
-      <animate id="td0" attributeName="d"
-               begin="0s;td2.end" dur="5000ms" fill="remove"
-               values="m0,30 h0 ; m0,30 h810 ; m0,30 h810 ; m0,30 h0"
-               keyTimes="0;0.6;0.8;1"/>
-    </path>
-    <text class="typed line1" dominant-baseline="middle">
-      <textPath xlink:href="#tp0">Hey There, It's Christian Darby-Ward</textPath>
-    </text>
-
-    <path id="tp1">
-      <animate id="td1" attributeName="d"
-               begin="td0.end" dur="2800ms" fill="remove"
-               values="m0,30 h0 ; m0,30 h330 ; m0,30 h330 ; m0,30 h0"
-               keyTimes="0;0.6;0.8;1"/>
-    </path>
-    <text class="typed line2" dominant-baseline="middle">
-      <textPath xlink:href="#tp1">A Software Developer</textPath>
-    </text>
-
-    <path id="tp2">
-      <animate id="td2" attributeName="d"
-               begin="td1.end" dur="2800ms" fill="remove"
-               values="m0,30 h0 ; m0,30 h300 ; m0,30 h300 ; m0,30 h0"
-               keyTimes="0;0.6;0.8;1"/>
-    </path>
-    <text class="typed line3" dominant-baseline="middle">
-      <textPath xlink:href="#tp2">And Student At KSU</textPath>
-    </text>
-  </g>
-
 </svg>
