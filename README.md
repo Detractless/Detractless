@@ -2,7 +2,7 @@
 
 ---
 
-## My Mission
+## Manifesto
 
 Technology has done immense good for the world, but modern computing often works against human psychology: introducing cognitive fatigue, constant distraction, and mental friction. My goal is to tip the scale back in favor of human intentionality.
 
