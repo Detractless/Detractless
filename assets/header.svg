@@ -17,7 +17,7 @@
     <g transform="translate(53, 135)">
       <g>
         <rect width="130" height="28" rx="14" fill="#f3f3f1" stroke="#dadad7" stroke-width="1"/>
-        <text id="val-commits" x="46" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">417</text>
+        <text id="val-commits" x="46" y="18" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#454543">418</text>
         <text x="50" y="18" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="400" fill="#626260">commits</text>
       </g>
       <g transform="translate(150, 0)">
